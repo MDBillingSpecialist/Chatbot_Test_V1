@@ -1,2 +1,17 @@
-node_modules
-.env
+# Ignore virtual environment
+venv/
+
+# Ignore other common files
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+env/
+.venv/
+build/
+dist/
+*.egg-info/
+.eggs/
+logs/
+*.log
