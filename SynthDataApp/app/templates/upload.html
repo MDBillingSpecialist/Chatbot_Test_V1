@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Document</title>
+    <script src="https://cdn.socket.io/4.3.2/socket.io.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const socket = io({
+                transports: ['polling']
+            });
+
+            socket.on('update', (data) => {
+                const progressElement = document.getElementById("progress");
+                progressElement.innerText = data.progress;
+                const historyElement = document.getElementById("progress-history");
+                const newHistoryItem = document.createElement("li");
+                newHistoryItem.textContent = data.progress;
+                historyElement.appendChild(newHistoryItem);
+            });
+        });
+    </script>
+</head>
+<body>
+    <h1>Upload a Document</h1>
+    <form method="post" enctype="multipart/form-data">
+        <input type="file" name="file" required>
+        <input type="submit" value="Upload">
+    </form>
+    <p id="progress">Waiting for file...</p>
+    <ul id="progress-history"></ul>
+</body>
+</html>

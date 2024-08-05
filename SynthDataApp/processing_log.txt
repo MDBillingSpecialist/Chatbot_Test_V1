@@ -1,0 +1,1174 @@
+2024-08-05 14:21:53,749 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-05 14:21:53,750 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-05 14:21:53,750 - INFO -  * Restarting with stat
+2024-08-05 14:21:54,797 - WARNING -  * Debugger is active!
+2024-08-05 14:21:54,798 - INFO -  * Debugger PIN: 223-159-800
+2024-08-05 14:21:56,957 - INFO - 127.0.0.1 - - [05/Aug/2024 14:21:56] "GET / HTTP/1.1" 200 -
+2024-08-05 14:21:56,971 - INFO - 127.0.0.1 - - [05/Aug/2024 14:21:56] "GET /socket.io/?EIO=4&transport=polling&t=P4Z_Rlg HTTP/1.1" 200 -
+2024-08-05 14:21:56,979 - INFO - 127.0.0.1 - - [05/Aug/2024 14:21:56] "POST /socket.io/?EIO=4&transport=polling&t=P4Z_Rlm&sid=GXChts-03y3thk_TAAAA HTTP/1.1" 200 -
+2024-08-05 14:21:56,980 - INFO - 127.0.0.1 - - [05/Aug/2024 14:21:56] "GET /socket.io/?EIO=4&transport=polling&t=P4Z_Rlm.0&sid=GXChts-03y3thk_TAAAA HTTP/1.1" 200 -
+2024-08-05 14:22:01,239 - INFO - 127.0.0.1 - - [05/Aug/2024 14:22:01] "POST /socket.io/?EIO=4&transport=polling&t=P4Z_SoM&sid=GXChts-03y3thk_TAAAA HTTP/1.1" 200 -
+2024-08-05 14:22:01,239 - INFO - 127.0.0.1 - - [05/Aug/2024 14:22:01] "GET /socket.io/?EIO=4&transport=polling&t=P4Z_Rlq&sid=GXChts-03y3thk_TAAAA HTTP/1.1" 200 -
+2024-08-05 14:22:02,409 - INFO - 127.0.0.1 - - [05/Aug/2024 14:22:02] "[32mPOST / HTTP/1.1[0m" 302 -
+2024-08-05 14:22:02,411 - INFO - 127.0.0.1 - - [05/Aug/2024 14:22:02] "GET / HTTP/1.1" 200 -
+2024-08-05 14:22:02,418 - INFO - 127.0.0.1 - - [05/Aug/2024 14:22:02] "GET /socket.io/?EIO=4&transport=polling&t=P4Z_T4m HTTP/1.1" 200 -
+2024-08-05 14:22:02,420 - INFO - 127.0.0.1 - - [05/Aug/2024 14:22:02] "POST /socket.io/?EIO=4&transport=polling&t=P4Z_T4o&sid=CcBKOojGc1NtlclLAAAC HTTP/1.1" 200 -
+2024-08-05 14:22:02,420 - INFO - 127.0.0.1 - - [05/Aug/2024 14:22:02] "GET /socket.io/?EIO=4&transport=polling&t=P4Z_T4p&sid=CcBKOojGc1NtlclLAAAC HTTP/1.1" 200 -
+2024-08-05 14:22:27,419 - INFO - 127.0.0.1 - - [05/Aug/2024 14:22:27] "GET /socket.io/?EIO=4&transport=polling&t=P4Z_T4q&sid=CcBKOojGc1NtlclLAAAC HTTP/1.1" 200 -
+2024-08-05 14:22:27,422 - INFO - 127.0.0.1 - - [05/Aug/2024 14:22:27] "POST /socket.io/?EIO=4&transport=polling&t=P4Z_ZBR&sid=CcBKOojGc1NtlclLAAAC HTTP/1.1" 200 -
+2024-08-05 14:22:30,763 - INFO -  * Detected change in 'C:\\Users\\theth\\OneDrive\\Documents\\GitHub\\Chatbot_Test_V1\\SynthDataApp\\app\\utils\\document_processing.py', reloading
+2024-08-05 14:22:30,876 - INFO -  * Restarting with stat
+2024-08-05 14:22:31,956 - WARNING -  * Debugger is active!
+2024-08-05 14:22:31,957 - INFO -  * Debugger PIN: 223-159-800
+2024-08-05 14:22:32,005 - ERROR - Invalid session CcBKOojGc1NtlclLAAAC (further occurrences of this error will be logged with level INFO)
+2024-08-05 14:22:32,006 - INFO - 127.0.0.1 - - [05/Aug/2024 14:22:32] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=P4Z_a1L&sid=CcBKOojGc1NtlclLAAAC HTTP/1.1[0m" 400 -
+2024-08-05 14:22:32,007 - INFO - 127.0.0.1 - - [05/Aug/2024 14:22:32] "GET /socket.io/?EIO=4&transport=polling&t=P4Z_aBU HTTP/1.1" 200 -
+2024-08-05 14:22:32,008 - INFO - 127.0.0.1 - - [05/Aug/2024 14:22:32] "POST /socket.io/?EIO=4&transport=polling&t=P4Z_aJ7&sid=Y5u2IqNxKCxkB4aOAAAA HTTP/1.1" 200 -
+2024-08-05 14:22:32,009 - INFO - 127.0.0.1 - - [05/Aug/2024 14:22:32] "GET /socket.io/?EIO=4&transport=polling&t=P4Z_aJ7.0&sid=Y5u2IqNxKCxkB4aOAAAA HTTP/1.1" 200 -
+2024-08-05 14:24:48,452 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-05 14:24:48,452 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-05 14:24:48,453 - INFO -  * Restarting with stat
+2024-08-05 14:24:49,513 - WARNING -  * Debugger is active!
+2024-08-05 14:24:49,514 - INFO -  * Debugger PIN: 223-159-800
+2024-08-05 14:24:49,566 - INFO - 127.0.0.1 - - [05/Aug/2024 14:24:49] "GET /socket.io/?EIO=4&transport=polling&t=P4a05tt HTTP/1.1" 200 -
+2024-08-05 14:24:49,568 - INFO - 127.0.0.1 - - [05/Aug/2024 14:24:49] "POST /socket.io/?EIO=4&transport=polling&t=P4a05uV&sid=8R_lRU-KFTnsnasYAAAA HTTP/1.1" 200 -
+2024-08-05 14:24:49,569 - INFO - 127.0.0.1 - - [05/Aug/2024 14:24:49] "GET /socket.io/?EIO=4&transport=polling&t=P4a05uV.0&sid=8R_lRU-KFTnsnasYAAAA HTTP/1.1" 200 -
+2024-08-05 14:24:51,568 - INFO - 127.0.0.1 - - [05/Aug/2024 14:24:51] "GET / HTTP/1.1" 200 -
+2024-08-05 14:24:51,589 - INFO - 127.0.0.1 - - [05/Aug/2024 14:24:51] "GET /socket.io/?EIO=4&transport=polling&t=P4a06O4 HTTP/1.1" 200 -
+2024-08-05 14:24:51,592 - INFO - 127.0.0.1 - - [05/Aug/2024 14:24:51] "POST /socket.io/?EIO=4&transport=polling&t=P4a06O7&sid=eVG1jMiB_UIxokefAAAC HTTP/1.1" 200 -
+2024-08-05 14:24:51,592 - INFO - 127.0.0.1 - - [05/Aug/2024 14:24:51] "GET /socket.io/?EIO=4&transport=polling&t=P4a06O7.0&sid=eVG1jMiB_UIxokefAAAC HTTP/1.1" 200 -
+2024-08-05 14:24:56,689 - INFO - 127.0.0.1 - - [05/Aug/2024 14:24:56] "POST /socket.io/?EIO=4&transport=polling&t=P4a07dl&sid=eVG1jMiB_UIxokefAAAC HTTP/1.1" 200 -
+2024-08-05 14:24:56,689 - INFO - 127.0.0.1 - - [05/Aug/2024 14:24:56] "GET /socket.io/?EIO=4&transport=polling&t=P4a06O9&sid=eVG1jMiB_UIxokefAAAC HTTP/1.1" 200 -
+2024-08-05 14:24:56,695 - INFO - 127.0.0.1 - - [05/Aug/2024 14:24:56] "GET /socket.io/?EIO=4&transport=polling&t=P4a05uY&sid=8R_lRU-KFTnsnasYAAAA HTTP/1.1" 200 -
+2024-08-05 14:24:57,872 - INFO - 127.0.0.1 - - [05/Aug/2024 14:24:57] "GET /socket.io/?EIO=4&transport=polling&t=P4a07dv&sid=8R_lRU-KFTnsnasYAAAA HTTP/1.1" 200 -
+2024-08-05 14:24:57,886 - INFO - 127.0.0.1 - - [05/Aug/2024 14:24:57] "[32mPOST / HTTP/1.1[0m" 302 -
+2024-08-05 14:24:57,888 - INFO - 127.0.0.1 - - [05/Aug/2024 14:24:57] "GET / HTTP/1.1" 200 -
+2024-08-05 14:24:57,895 - INFO - 127.0.0.1 - - [05/Aug/2024 14:24:57] "GET /socket.io/?EIO=4&transport=polling&t=P4a07wb HTTP/1.1" 200 -
+2024-08-05 14:24:57,897 - INFO - 127.0.0.1 - - [05/Aug/2024 14:24:57] "POST /socket.io/?EIO=4&transport=polling&t=P4a07we&sid=qgnyYJ-Rewp5zL5yAAAE HTTP/1.1" 200 -
+2024-08-05 14:24:57,897 - INFO - 127.0.0.1 - - [05/Aug/2024 14:24:57] "GET /socket.io/?EIO=4&transport=polling&t=P4a07we.0&sid=qgnyYJ-Rewp5zL5yAAAE HTTP/1.1" 200 -
+2024-08-05 14:30:14,532 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-05 14:30:14,532 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-05 14:30:14,532 - INFO -  * Restarting with stat
+2024-08-05 14:30:15,570 - WARNING -  * Debugger is active!
+2024-08-05 14:30:15,571 - INFO -  * Debugger PIN: 223-159-800
+2024-08-05 14:30:15,620 - INFO - 127.0.0.1 - - [05/Aug/2024 14:30:15] "GET /socket.io/?EIO=4&transport=polling&t=P4a1K-B HTTP/1.1" 200 -
+2024-08-05 14:30:15,622 - INFO - 127.0.0.1 - - [05/Aug/2024 14:30:15] "GET /socket.io/?EIO=4&transport=polling&t=P4a1K-B HTTP/1.1" 200 -
+2024-08-05 14:30:15,623 - INFO - 127.0.0.1 - - [05/Aug/2024 14:30:15] "POST /socket.io/?EIO=4&transport=polling&t=P4a1LV6&sid=CN2cWflbG6vTXeQ3AAAA HTTP/1.1" 200 -
+2024-08-05 14:30:15,623 - INFO - 127.0.0.1 - - [05/Aug/2024 14:30:15] "GET /socket.io/?EIO=4&transport=polling&t=P4a1LV6.0&sid=CN2cWflbG6vTXeQ3AAAA HTTP/1.1" 200 -
+2024-08-05 14:30:15,625 - INFO - 127.0.0.1 - - [05/Aug/2024 14:30:15] "POST /socket.io/?EIO=4&transport=polling&t=P4a1LV7&sid=5sa2r9e5qtKv2nUTAAAB HTTP/1.1" 200 -
+2024-08-05 14:30:15,625 - INFO - 127.0.0.1 - - [05/Aug/2024 14:30:15] "GET /socket.io/?EIO=4&transport=polling&t=P4a1LV8&sid=5sa2r9e5qtKv2nUTAAAB HTTP/1.1" 200 -
+2024-08-05 14:30:23,802 - INFO - 127.0.0.1 - - [05/Aug/2024 14:30:23] "GET / HTTP/1.1" 200 -
+2024-08-05 14:30:23,818 - INFO - 127.0.0.1 - - [05/Aug/2024 14:30:23] "GET /socket.io/?EIO=4&transport=polling&t=P4a1NV9 HTTP/1.1" 200 -
+2024-08-05 14:30:23,824 - INFO - 127.0.0.1 - - [05/Aug/2024 14:30:23] "POST /socket.io/?EIO=4&transport=polling&t=P4a1NVF&sid=G9NNHRC7BcBTc7PQAAAE HTTP/1.1" 200 -
+2024-08-05 14:30:23,825 - INFO - 127.0.0.1 - - [05/Aug/2024 14:30:23] "GET /socket.io/?EIO=4&transport=polling&t=P4a1NVF.0&sid=G9NNHRC7BcBTc7PQAAAE HTTP/1.1" 200 -
+2024-08-05 14:30:32,895 - INFO - 127.0.0.1 - - [05/Aug/2024 14:30:32] "POST /socket.io/?EIO=4&transport=polling&t=P4a1Pi-&sid=G9NNHRC7BcBTc7PQAAAE HTTP/1.1" 200 -
+2024-08-05 14:30:32,895 - INFO - 127.0.0.1 - - [05/Aug/2024 14:30:32] "GET /socket.io/?EIO=4&transport=polling&t=P4a1NVI&sid=G9NNHRC7BcBTc7PQAAAE HTTP/1.1" 200 -
+2024-08-05 14:30:32,902 - INFO - 127.0.0.1 - - [05/Aug/2024 14:30:32] "GET /socket.io/?EIO=4&transport=polling&t=P4a1LV9&sid=CN2cWflbG6vTXeQ3AAAA HTTP/1.1" 200 -
+2024-08-05 14:30:32,902 - INFO - 127.0.0.1 - - [05/Aug/2024 14:30:32] "GET /socket.io/?EIO=4&transport=polling&t=P4a1LVA&sid=5sa2r9e5qtKv2nUTAAAB HTTP/1.1" 200 -
+2024-08-05 14:30:34,091 - INFO - 127.0.0.1 - - [05/Aug/2024 14:30:34] "GET /socket.io/?EIO=4&transport=polling&t=P4a1Pj8&sid=CN2cWflbG6vTXeQ3AAAA HTTP/1.1" 200 -
+2024-08-05 14:30:34,092 - INFO - 127.0.0.1 - - [05/Aug/2024 14:30:34] "GET /socket.io/?EIO=4&transport=polling&t=P4a1Pj7&sid=5sa2r9e5qtKv2nUTAAAB HTTP/1.1" 200 -
+2024-08-05 14:30:34,107 - INFO - 127.0.0.1 - - [05/Aug/2024 14:30:34] "[32mPOST / HTTP/1.1[0m" 302 -
+2024-08-05 14:30:34,110 - INFO - 127.0.0.1 - - [05/Aug/2024 14:30:34] "GET / HTTP/1.1" 200 -
+2024-08-05 14:30:34,117 - INFO - 127.0.0.1 - - [05/Aug/2024 14:30:34] "GET /socket.io/?EIO=4&transport=polling&t=P4a1Q04 HTTP/1.1" 200 -
+2024-08-05 14:30:34,118 - INFO - 127.0.0.1 - - [05/Aug/2024 14:30:34] "POST /socket.io/?EIO=4&transport=polling&t=P4a1Q06&sid=t8lNf57c2Ruz5ALoAAAG HTTP/1.1" 200 -
+2024-08-05 14:30:34,118 - INFO - 127.0.0.1 - - [05/Aug/2024 14:30:34] "GET /socket.io/?EIO=4&transport=polling&t=P4a1Q06.0&sid=t8lNf57c2Ruz5ALoAAAG HTTP/1.1" 200 -
+2024-08-05 14:30:40,621 - INFO - 127.0.0.1 - - [05/Aug/2024 14:30:40] "GET /socket.io/?EIO=4&transport=polling&t=P4a1P_l&sid=CN2cWflbG6vTXeQ3AAAA HTTP/1.1" 200 -
+2024-08-05 14:30:40,622 - INFO - 127.0.0.1 - - [05/Aug/2024 14:30:40] "GET /socket.io/?EIO=4&transport=polling&t=P4a1P_l&sid=5sa2r9e5qtKv2nUTAAAB HTTP/1.1" 200 -
+2024-08-05 14:30:40,623 - INFO - 127.0.0.1 - - [05/Aug/2024 14:30:40] "POST /socket.io/?EIO=4&transport=polling&t=P4a1Rbk&sid=CN2cWflbG6vTXeQ3AAAA HTTP/1.1" 200 -
+2024-08-05 14:30:40,624 - INFO - 127.0.0.1 - - [05/Aug/2024 14:30:40] "POST /socket.io/?EIO=4&transport=polling&t=P4a1Rbl&sid=5sa2r9e5qtKv2nUTAAAB HTTP/1.1" 200 -
+2024-08-05 14:42:14,831 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-05 14:42:14,831 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-05 14:42:14,831 - INFO -  * Restarting with stat
+2024-08-05 14:42:15,852 - WARNING -  * Debugger is active!
+2024-08-05 14:42:15,854 - INFO -  * Debugger PIN: 223-159-800
+2024-08-05 14:42:15,906 - INFO - 127.0.0.1 - - [05/Aug/2024 14:42:15] "GET /socket.io/?EIO=4&transport=polling&t=P4a44mJ HTTP/1.1" 200 -
+2024-08-05 14:42:15,906 - INFO - 127.0.0.1 - - [05/Aug/2024 14:42:15] "GET /socket.io/?EIO=4&transport=polling&t=P4a45FX HTTP/1.1" 200 -
+2024-08-05 14:42:15,908 - INFO - 127.0.0.1 - - [05/Aug/2024 14:42:15] "GET /socket.io/?EIO=4&transport=polling&t=P4a44mJ HTTP/1.1" 200 -
+2024-08-05 14:42:15,908 - INFO - 127.0.0.1 - - [05/Aug/2024 14:42:15] "POST /socket.io/?EIO=4&transport=polling&t=P4a45La&sid=BtOAy8kQD28-df0-AAAA HTTP/1.1" 200 -
+2024-08-05 14:42:15,909 - INFO - 127.0.0.1 - - [05/Aug/2024 14:42:15] "POST /socket.io/?EIO=4&transport=polling&t=P4a45La&sid=DNVxz8xpJGPvCZ3pAAAB HTTP/1.1" 200 -
+2024-08-05 14:42:15,910 - INFO - 127.0.0.1 - - [05/Aug/2024 14:42:15] "GET /socket.io/?EIO=4&transport=polling&t=P4a45La.0&sid=BtOAy8kQD28-df0-AAAA HTTP/1.1" 200 -
+2024-08-05 14:42:15,911 - INFO - 127.0.0.1 - - [05/Aug/2024 14:42:15] "GET /socket.io/?EIO=4&transport=polling&t=P4a45Lb&sid=DNVxz8xpJGPvCZ3pAAAB HTTP/1.1" 200 -
+2024-08-05 14:42:15,911 - INFO - 127.0.0.1 - - [05/Aug/2024 14:42:15] "POST /socket.io/?EIO=4&transport=polling&t=P4a45Lc&sid=GDzTg8uLFSUpXflPAAAC HTTP/1.1" 200 -
+2024-08-05 14:42:15,912 - INFO - 127.0.0.1 - - [05/Aug/2024 14:42:15] "GET /socket.io/?EIO=4&transport=polling&t=P4a45Lc.0&sid=GDzTg8uLFSUpXflPAAAC HTTP/1.1" 200 -
+2024-08-05 14:42:18,874 - INFO - 127.0.0.1 - - [05/Aug/2024 14:42:18] "GET / HTTP/1.1" 200 -
+2024-08-05 14:42:18,889 - INFO - 127.0.0.1 - - [05/Aug/2024 14:42:18] "GET /socket.io/?EIO=4&transport=polling&t=P4a4648 HTTP/1.1" 200 -
+2024-08-05 14:42:18,895 - INFO - 127.0.0.1 - - [05/Aug/2024 14:42:18] "POST /socket.io/?EIO=4&transport=polling&t=P4a464E&sid=D_OKDnsm0S8NFY9lAAAG HTTP/1.1" 200 -
+2024-08-05 14:42:18,895 - INFO - 127.0.0.1 - - [05/Aug/2024 14:42:18] "GET /socket.io/?EIO=4&transport=polling&t=P4a464E.0&sid=D_OKDnsm0S8NFY9lAAAG HTTP/1.1" 200 -
+2024-08-05 14:42:24,224 - INFO - 127.0.0.1 - - [05/Aug/2024 14:42:24] "POST /socket.io/?EIO=4&transport=polling&t=P4a47NV&sid=D_OKDnsm0S8NFY9lAAAG HTTP/1.1" 200 -
+2024-08-05 14:42:24,224 - INFO - 127.0.0.1 - - [05/Aug/2024 14:42:24] "GET /socket.io/?EIO=4&transport=polling&t=P4a464H&sid=D_OKDnsm0S8NFY9lAAAG HTTP/1.1" 200 -
+2024-08-05 14:42:24,231 - INFO - 127.0.0.1 - - [05/Aug/2024 14:42:24] "GET /socket.io/?EIO=4&transport=polling&t=P4a45Le&sid=DNVxz8xpJGPvCZ3pAAAB HTTP/1.1" 200 -
+2024-08-05 14:42:24,231 - INFO - 127.0.0.1 - - [05/Aug/2024 14:42:24] "GET /socket.io/?EIO=4&transport=polling&t=P4a45Lf&sid=GDzTg8uLFSUpXflPAAAC HTTP/1.1" 200 -
+2024-08-05 14:42:24,231 - INFO - 127.0.0.1 - - [05/Aug/2024 14:42:24] "GET /socket.io/?EIO=4&transport=polling&t=P4a45Le&sid=BtOAy8kQD28-df0-AAAA HTTP/1.1" 200 -
+2024-08-05 14:42:25,396 - INFO - 127.0.0.1 - - [05/Aug/2024 14:42:25] "GET /socket.io/?EIO=4&transport=polling&t=P4a47Nf&sid=BtOAy8kQD28-df0-AAAA HTTP/1.1" 200 -
+2024-08-05 14:42:25,396 - INFO - 127.0.0.1 - - [05/Aug/2024 14:42:25] "GET /socket.io/?EIO=4&transport=polling&t=P4a47Nf&sid=DNVxz8xpJGPvCZ3pAAAB HTTP/1.1" 200 -
+2024-08-05 14:42:25,396 - INFO - 127.0.0.1 - - [05/Aug/2024 14:42:25] "GET /socket.io/?EIO=4&transport=polling&t=P4a47Ne&sid=GDzTg8uLFSUpXflPAAAC HTTP/1.1" 200 -
+2024-08-05 14:42:25,411 - INFO - 127.0.0.1 - - [05/Aug/2024 14:42:25] "[32mPOST / HTTP/1.1[0m" 302 -
+2024-08-05 14:42:25,413 - INFO - 127.0.0.1 - - [05/Aug/2024 14:42:25] "GET / HTTP/1.1" 200 -
+2024-08-05 14:42:25,420 - INFO - 127.0.0.1 - - [05/Aug/2024 14:42:25] "GET /socket.io/?EIO=4&transport=polling&t=P4a47gA HTTP/1.1" 200 -
+2024-08-05 14:42:25,421 - INFO - 127.0.0.1 - - [05/Aug/2024 14:42:25] "POST /socket.io/?EIO=4&transport=polling&t=P4a47gC&sid=danzzcolTJVMP64MAAAI HTTP/1.1" 200 -
+2024-08-05 14:42:25,421 - INFO - 127.0.0.1 - - [05/Aug/2024 14:42:25] "GET /socket.io/?EIO=4&transport=polling&t=P4a47gC.0&sid=danzzcolTJVMP64MAAAI HTTP/1.1" 200 -
+2024-08-05 14:44:18,956 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-05 14:44:18,957 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-05 14:44:18,957 - INFO -  * Restarting with stat
+2024-08-05 14:44:19,985 - WARNING -  * Debugger is active!
+2024-08-05 14:44:19,986 - INFO -  * Debugger PIN: 223-159-800
+2024-08-05 14:44:20,035 - INFO - 127.0.0.1 - - [05/Aug/2024 14:44:20] "GET /socket.io/?EIO=4&transport=polling&t=P4a4Z1q HTTP/1.1" 200 -
+2024-08-05 14:44:20,036 - INFO - 127.0.0.1 - - [05/Aug/2024 14:44:20] "GET /socket.io/?EIO=4&transport=polling&t=P4a4ZHK HTTP/1.1" 200 -
+2024-08-05 14:44:20,036 - INFO - 127.0.0.1 - - [05/Aug/2024 14:44:20] "GET /socket.io/?EIO=4&transport=polling&t=P4a4ZX5 HTTP/1.1" 200 -
+2024-08-05 14:44:20,036 - INFO - 127.0.0.1 - - [05/Aug/2024 14:44:20] "GET /socket.io/?EIO=4&transport=polling&t=P4a4Z1q HTTP/1.1" 200 -
+2024-08-05 14:44:20,038 - INFO - 127.0.0.1 - - [05/Aug/2024 14:44:20] "POST /socket.io/?EIO=4&transport=polling&t=P4a4Zf5&sid=BhFOvcoE-bkZptJHAAAA HTTP/1.1" 200 -
+2024-08-05 14:44:20,039 - INFO - 127.0.0.1 - - [05/Aug/2024 14:44:20] "POST /socket.io/?EIO=4&transport=polling&t=P4a4Zf5&sid=V8QsDFI0d0jZ0_6UAAAB HTTP/1.1" 200 -
+2024-08-05 14:44:20,039 - INFO - 127.0.0.1 - - [05/Aug/2024 14:44:20] "GET /socket.io/?EIO=4&transport=polling&t=P4a4Zf5.0&sid=BhFOvcoE-bkZptJHAAAA HTTP/1.1" 200 -
+2024-08-05 14:44:20,040 - INFO - 127.0.0.1 - - [05/Aug/2024 14:44:20] "POST /socket.io/?EIO=4&transport=polling&t=P4a4Zf6&sid=kkde38WzO8LxOfJtAAAC HTTP/1.1" 200 -
+2024-08-05 14:44:20,040 - INFO - 127.0.0.1 - - [05/Aug/2024 14:44:20] "POST /socket.io/?EIO=4&transport=polling&t=P4a4Zf6&sid=YdS26FwgEvzZiO5jAAAD HTTP/1.1" 200 -
+2024-08-05 14:44:20,040 - INFO - 127.0.0.1 - - [05/Aug/2024 14:44:20] "GET /socket.io/?EIO=4&transport=polling&t=P4a4Zf6.0&sid=kkde38WzO8LxOfJtAAAC HTTP/1.1" 200 -
+2024-08-05 14:44:20,041 - INFO - 127.0.0.1 - - [05/Aug/2024 14:44:20] "GET /socket.io/?EIO=4&transport=polling&t=P4a4Zf6&sid=V8QsDFI0d0jZ0_6UAAAB HTTP/1.1" 200 -
+2024-08-05 14:44:20,041 - INFO - 127.0.0.1 - - [05/Aug/2024 14:44:20] "GET /socket.io/?EIO=4&transport=polling&t=P4a4Zf6.0&sid=YdS26FwgEvzZiO5jAAAD HTTP/1.1" 200 -
+2024-08-05 14:44:28,668 - INFO - 127.0.0.1 - - [05/Aug/2024 14:44:28] "POST /socket.io/?EIO=4&transport=polling&t=P4a4blx&sid=kkde38WzO8LxOfJtAAAC HTTP/1.1" 200 -
+2024-08-05 14:44:28,668 - INFO - 127.0.0.1 - - [05/Aug/2024 14:44:28] "GET /socket.io/?EIO=4&transport=polling&t=P4a4ZfJ&sid=kkde38WzO8LxOfJtAAAC HTTP/1.1" 200 -
+2024-08-05 14:44:29,079 - INFO - 127.0.0.1 - - [05/Aug/2024 14:44:29] "POST /socket.io/?EIO=4&transport=polling&t=P4a4bsM&sid=BhFOvcoE-bkZptJHAAAA HTTP/1.1" 200 -
+2024-08-05 14:44:29,079 - INFO - 127.0.0.1 - - [05/Aug/2024 14:44:29] "GET /socket.io/?EIO=4&transport=polling&t=P4a4Zf9&sid=BhFOvcoE-bkZptJHAAAA HTTP/1.1" 200 -
+2024-08-05 14:44:29,546 - INFO - 127.0.0.1 - - [05/Aug/2024 14:44:29] "POST /socket.io/?EIO=4&transport=polling&t=P4a4bzg&sid=YdS26FwgEvzZiO5jAAAD HTTP/1.1" 200 -
+2024-08-05 14:44:29,546 - INFO - 127.0.0.1 - - [05/Aug/2024 14:44:29] "GET /socket.io/?EIO=4&transport=polling&t=P4a4ZfJ&sid=YdS26FwgEvzZiO5jAAAD HTTP/1.1" 200 -
+2024-08-05 14:44:30,493 - INFO - 127.0.0.1 - - [05/Aug/2024 14:44:30] "POST /socket.io/?EIO=4&transport=polling&t=P4a4cCR&sid=V8QsDFI0d0jZ0_6UAAAB HTTP/1.1" 200 -
+2024-08-05 14:44:30,493 - INFO - 127.0.0.1 - - [05/Aug/2024 14:44:30] "GET /socket.io/?EIO=4&transport=polling&t=P4a4ZfJ&sid=V8QsDFI0d0jZ0_6UAAAB HTTP/1.1" 200 -
+2024-08-05 14:44:34,372 - INFO - 127.0.0.1 - - [05/Aug/2024 14:44:34] "GET / HTTP/1.1" 200 -
+2024-08-05 14:44:34,387 - INFO - 127.0.0.1 - - [05/Aug/2024 14:44:34] "GET /socket.io/?EIO=4&transport=polling&t=P4a4d9I HTTP/1.1" 200 -
+2024-08-05 14:44:34,393 - INFO - 127.0.0.1 - - [05/Aug/2024 14:44:34] "POST /socket.io/?EIO=4&transport=polling&t=P4a4d9O&sid=DcpUGCMQUWHd35KkAAAI HTTP/1.1" 200 -
+2024-08-05 14:44:34,393 - INFO - 127.0.0.1 - - [05/Aug/2024 14:44:34] "GET /socket.io/?EIO=4&transport=polling&t=P4a4d9O.0&sid=DcpUGCMQUWHd35KkAAAI HTTP/1.1" 200 -
+2024-08-05 14:44:39,775 - INFO - 127.0.0.1 - - [05/Aug/2024 14:44:39] "POST /socket.io/?EIO=4&transport=polling&t=P4a4eTU&sid=DcpUGCMQUWHd35KkAAAI HTTP/1.1" 200 -
+2024-08-05 14:44:39,775 - INFO - 127.0.0.1 - - [05/Aug/2024 14:44:39] "GET /socket.io/?EIO=4&transport=polling&t=P4a4d9Q&sid=DcpUGCMQUWHd35KkAAAI HTTP/1.1" 200 -
+2024-08-05 14:44:40,960 - INFO - 127.0.0.1 - - [05/Aug/2024 14:44:40] "[32mPOST / HTTP/1.1[0m" 302 -
+2024-08-05 14:44:40,962 - INFO - 127.0.0.1 - - [05/Aug/2024 14:44:40] "GET / HTTP/1.1" 200 -
+2024-08-05 14:44:40,970 - INFO - 127.0.0.1 - - [05/Aug/2024 14:44:40] "GET /socket.io/?EIO=4&transport=polling&t=P4a4em9 HTTP/1.1" 200 -
+2024-08-05 14:44:40,971 - INFO - 127.0.0.1 - - [05/Aug/2024 14:44:40] "POST /socket.io/?EIO=4&transport=polling&t=P4a4emB&sid=K9SQM8q272Bz5qXCAAAK HTTP/1.1" 200 -
+2024-08-05 14:44:40,972 - INFO - 127.0.0.1 - - [05/Aug/2024 14:44:40] "GET /socket.io/?EIO=4&transport=polling&t=P4a4emB.0&sid=K9SQM8q272Bz5qXCAAAK HTTP/1.1" 200 -
+2024-08-05 14:44:52,404 - INFO - 127.0.0.1 - - [05/Aug/2024 14:44:52] "POST /socket.io/?EIO=4&transport=polling&t=P4a4hYp&sid=K9SQM8q272Bz5qXCAAAK HTTP/1.1" 200 -
+2024-08-05 14:44:52,404 - INFO - 127.0.0.1 - - [05/Aug/2024 14:44:52] "GET /socket.io/?EIO=4&transport=polling&t=P4a4emD&sid=K9SQM8q272Bz5qXCAAAK HTTP/1.1" 200 -
+2024-08-05 14:50:27,024 - INFO -  * Detected change in 'C:\\Users\\theth\\OneDrive\\Documents\\GitHub\\Chatbot_Test_V1\\SynthDataApp\\app\\utils\\document_processing.py', reloading
+2024-08-05 14:50:27,162 - INFO -  * Restarting with stat
+2024-08-05 14:50:28,250 - WARNING -  * Debugger is active!
+2024-08-05 14:50:28,252 - INFO -  * Debugger PIN: 223-159-800
+2024-08-05 14:50:43,002 - INFO -  * Detected change in 'C:\\Users\\theth\\OneDrive\\Documents\\GitHub\\Chatbot_Test_V1\\SynthDataApp\\app\\utils\\document_processing.py', reloading
+2024-08-05 14:50:43,117 - INFO -  * Restarting with stat
+2024-08-05 14:50:44,176 - WARNING -  * Debugger is active!
+2024-08-05 14:50:44,177 - INFO -  * Debugger PIN: 223-159-800
+2024-08-05 14:57:32,876 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-05 14:57:32,876 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-05 14:57:32,876 - INFO -  * Restarting with stat
+2024-08-05 14:57:33,904 - WARNING -  * Debugger is active!
+2024-08-05 14:57:33,905 - INFO -  * Debugger PIN: 223-159-800
+2024-08-05 14:57:37,546 - INFO - 127.0.0.1 - - [05/Aug/2024 14:57:37] "GET / HTTP/1.1" 200 -
+2024-08-05 14:57:37,570 - INFO - 127.0.0.1 - - [05/Aug/2024 14:57:37] "GET /socket.io/?EIO=4&transport=polling&t=P4a7cMU HTTP/1.1" 200 -
+2024-08-05 14:57:37,572 - INFO - 127.0.0.1 - - [05/Aug/2024 14:57:37] "POST /socket.io/?EIO=4&transport=polling&t=P4a7cMX&sid=JGRTysgdODgqpxSCAAAA HTTP/1.1" 200 -
+2024-08-05 14:57:37,572 - INFO - 127.0.0.1 - - [05/Aug/2024 14:57:37] "GET /socket.io/?EIO=4&transport=polling&t=P4a7cMY&sid=JGRTysgdODgqpxSCAAAA HTTP/1.1" 200 -
+2024-08-05 14:57:42,205 - INFO - 127.0.0.1 - - [05/Aug/2024 14:57:42] "POST /socket.io/?EIO=4&transport=polling&t=P4a7dUx&sid=JGRTysgdODgqpxSCAAAA HTTP/1.1" 200 -
+2024-08-05 14:57:42,205 - INFO - 127.0.0.1 - - [05/Aug/2024 14:57:42] "GET /socket.io/?EIO=4&transport=polling&t=P4a7cMZ&sid=JGRTysgdODgqpxSCAAAA HTTP/1.1" 200 -
+2024-08-05 14:57:43,384 - INFO - 127.0.0.1 - - [05/Aug/2024 14:57:43] "[32mPOST / HTTP/1.1[0m" 302 -
+2024-08-05 14:57:43,386 - INFO - 127.0.0.1 - - [05/Aug/2024 14:57:43] "GET / HTTP/1.1" 200 -
+2024-08-05 14:57:43,393 - INFO - 127.0.0.1 - - [05/Aug/2024 14:57:43] "GET /socket.io/?EIO=4&transport=polling&t=P4a7dnU HTTP/1.1" 200 -
+2024-08-05 14:57:43,394 - INFO - 127.0.0.1 - - [05/Aug/2024 14:57:43] "POST /socket.io/?EIO=4&transport=polling&t=P4a7dnW&sid=U7N602qbkLLGyqAWAAAC HTTP/1.1" 200 -
+2024-08-05 14:57:43,394 - INFO - 127.0.0.1 - - [05/Aug/2024 14:57:43] "GET /socket.io/?EIO=4&transport=polling&t=P4a7dnX&sid=U7N602qbkLLGyqAWAAAC HTTP/1.1" 200 -
+2024-08-05 15:08:34,345 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-05 15:08:34,345 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-05 15:08:34,345 - INFO -  * Restarting with stat
+2024-08-05 15:08:35,366 - WARNING -  * Debugger is active!
+2024-08-05 15:08:35,367 - INFO -  * Debugger PIN: 223-159-800
+2024-08-05 15:08:35,419 - INFO - 127.0.0.1 - - [05/Aug/2024 15:08:35] "GET /socket.io/?EIO=4&transport=polling&t=P4aA6Vo HTTP/1.1" 200 -
+2024-08-05 15:08:35,421 - INFO - 127.0.0.1 - - [05/Aug/2024 15:08:35] "POST /socket.io/?EIO=4&transport=polling&t=P4aA6zS&sid=Wua3UuJttaPD1ug0AAAA HTTP/1.1" 200 -
+2024-08-05 15:08:35,421 - INFO - 127.0.0.1 - - [05/Aug/2024 15:08:35] "GET /socket.io/?EIO=4&transport=polling&t=P4aA6zS.0&sid=Wua3UuJttaPD1ug0AAAA HTTP/1.1" 200 -
+2024-08-05 15:08:37,387 - INFO - 127.0.0.1 - - [05/Aug/2024 15:08:37] "GET / HTTP/1.1" 200 -
+2024-08-05 15:08:37,402 - INFO - 127.0.0.1 - - [05/Aug/2024 15:08:37] "GET /socket.io/?EIO=4&transport=polling&t=P4aA7SP HTTP/1.1" 200 -
+2024-08-05 15:08:37,408 - INFO - 127.0.0.1 - - [05/Aug/2024 15:08:37] "POST /socket.io/?EIO=4&transport=polling&t=P4aA7SV&sid=cWVlRbUvvX8ehQteAAAC HTTP/1.1" 200 -
+2024-08-05 15:08:37,410 - INFO - 127.0.0.1 - - [05/Aug/2024 15:08:37] "GET /socket.io/?EIO=4&transport=polling&t=P4aA7SV.0&sid=cWVlRbUvvX8ehQteAAAC HTTP/1.1" 200 -
+2024-08-05 15:08:41,788 - INFO - 127.0.0.1 - - [05/Aug/2024 15:08:41] "POST /socket.io/?EIO=4&transport=polling&t=P4aA8Ww&sid=cWVlRbUvvX8ehQteAAAC HTTP/1.1" 200 -
+2024-08-05 15:08:41,788 - INFO - 127.0.0.1 - - [05/Aug/2024 15:08:41] "GET /socket.io/?EIO=4&transport=polling&t=P4aA7SX&sid=cWVlRbUvvX8ehQteAAAC HTTP/1.1" 200 -
+2024-08-05 15:08:41,795 - INFO - 127.0.0.1 - - [05/Aug/2024 15:08:41] "GET /socket.io/?EIO=4&transport=polling&t=P4aA6zU&sid=Wua3UuJttaPD1ug0AAAA HTTP/1.1" 200 -
+2024-08-05 15:08:42,935 - INFO - 127.0.0.1 - - [05/Aug/2024 15:08:42] "GET /socket.io/?EIO=4&transport=polling&t=P4aA8X5&sid=Wua3UuJttaPD1ug0AAAA HTTP/1.1" 200 -
+2024-08-05 15:08:42,948 - INFO - 127.0.0.1 - - [05/Aug/2024 15:08:42] "[32mPOST / HTTP/1.1[0m" 302 -
+2024-08-05 15:08:42,951 - INFO - 127.0.0.1 - - [05/Aug/2024 15:08:42] "GET / HTTP/1.1" 200 -
+2024-08-05 15:08:42,957 - INFO - 127.0.0.1 - - [05/Aug/2024 15:08:42] "GET /socket.io/?EIO=4&transport=polling&t=P4aA8pC HTTP/1.1" 200 -
+2024-08-05 15:08:42,959 - INFO - 127.0.0.1 - - [05/Aug/2024 15:08:42] "POST /socket.io/?EIO=4&transport=polling&t=P4aA8pE&sid=-JhxgKxH6X2q_Y0GAAAE HTTP/1.1" 200 -
+2024-08-05 15:08:42,959 - INFO - 127.0.0.1 - - [05/Aug/2024 15:08:42] "GET /socket.io/?EIO=4&transport=polling&t=P4aA8pE.0&sid=-JhxgKxH6X2q_Y0GAAAE HTTP/1.1" 200 -
+2024-08-05 15:09:00,419 - INFO - 127.0.0.1 - - [05/Aug/2024 15:09:00] "GET /socket.io/?EIO=4&transport=polling&t=P4aA8ow&sid=Wua3UuJttaPD1ug0AAAA HTTP/1.1" 200 -
+2024-08-05 15:09:00,421 - INFO - 127.0.0.1 - - [05/Aug/2024 15:09:00] "POST /socket.io/?EIO=4&transport=polling&t=P4aAD44&sid=Wua3UuJttaPD1ug0AAAA HTTP/1.1" 200 -
+2024-08-05 15:09:27,213 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-05 15:09:27,213 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-05 15:09:27,213 - INFO -  * Restarting with stat
+2024-08-05 15:09:28,257 - WARNING -  * Debugger is active!
+2024-08-05 15:09:28,258 - INFO -  * Debugger PIN: 223-159-800
+2024-08-05 15:09:28,309 - INFO - 127.0.0.1 - - [05/Aug/2024 15:09:28] "GET /socket.io/?EIO=4&transport=polling&t=P4aAJCI HTTP/1.1" 200 -
+2024-08-05 15:09:28,310 - INFO - 127.0.0.1 - - [05/Aug/2024 15:09:28] "GET /socket.io/?EIO=4&transport=polling&t=P4aAJCH HTTP/1.1" 200 -
+2024-08-05 15:09:28,312 - INFO - 127.0.0.1 - - [05/Aug/2024 15:09:28] "POST /socket.io/?EIO=4&transport=polling&t=P4aAJtt&sid=4m-2CqVu7JMNzBrPAAAA HTTP/1.1" 200 -
+2024-08-05 15:09:28,312 - INFO - 127.0.0.1 - - [05/Aug/2024 15:09:28] "POST /socket.io/?EIO=4&transport=polling&t=P4aAJtt&sid=78ka_Y3nVIQLEnyZAAAB HTTP/1.1" 200 -
+2024-08-05 15:09:28,313 - INFO - 127.0.0.1 - - [05/Aug/2024 15:09:28] "GET /socket.io/?EIO=4&transport=polling&t=P4aAJtt.0&sid=4m-2CqVu7JMNzBrPAAAA HTTP/1.1" 200 -
+2024-08-05 15:09:28,314 - INFO - 127.0.0.1 - - [05/Aug/2024 15:09:28] "GET /socket.io/?EIO=4&transport=polling&t=P4aAJtt.0&sid=78ka_Y3nVIQLEnyZAAAB HTTP/1.1" 200 -
+2024-08-05 15:09:31,008 - INFO - 127.0.0.1 - - [05/Aug/2024 15:09:31] "POST /socket.io/?EIO=4&transport=polling&t=P4aAKX_&sid=78ka_Y3nVIQLEnyZAAAB HTTP/1.1" 200 -
+2024-08-05 15:09:31,008 - INFO - 127.0.0.1 - - [05/Aug/2024 15:09:31] "GET /socket.io/?EIO=4&transport=polling&t=P4aAJtw&sid=78ka_Y3nVIQLEnyZAAAB HTTP/1.1" 200 -
+2024-08-05 15:09:34,427 - INFO - 127.0.0.1 - - [05/Aug/2024 15:09:34] "POST /socket.io/?EIO=4&transport=polling&t=P4aALNQ&sid=4m-2CqVu7JMNzBrPAAAA HTTP/1.1" 200 -
+2024-08-05 15:09:34,427 - INFO - 127.0.0.1 - - [05/Aug/2024 15:09:34] "GET /socket.io/?EIO=4&transport=polling&t=P4aAJtw&sid=4m-2CqVu7JMNzBrPAAAA HTTP/1.1" 200 -
+2024-08-05 15:09:34,430 - INFO - 127.0.0.1 - - [05/Aug/2024 15:09:34] "GET / HTTP/1.1" 200 -
+2024-08-05 15:09:34,437 - INFO - 127.0.0.1 - - [05/Aug/2024 15:09:34] "GET /socket.io/?EIO=4&transport=polling&t=P4aALNa HTTP/1.1" 200 -
+2024-08-05 15:09:34,438 - INFO - 127.0.0.1 - - [05/Aug/2024 15:09:34] "POST /socket.io/?EIO=4&transport=polling&t=P4aALNc&sid=m8CsjXIJ_snL0WmoAAAE HTTP/1.1" 200 -
+2024-08-05 15:09:34,439 - INFO - 127.0.0.1 - - [05/Aug/2024 15:09:34] "GET /socket.io/?EIO=4&transport=polling&t=P4aALNc.0&sid=m8CsjXIJ_snL0WmoAAAE HTTP/1.1" 200 -
+2024-08-05 15:09:38,287 - INFO - 127.0.0.1 - - [05/Aug/2024 15:09:38] "POST /socket.io/?EIO=4&transport=polling&t=P4aAMJj&sid=m8CsjXIJ_snL0WmoAAAE HTTP/1.1" 200 -
+2024-08-05 15:09:38,287 - INFO - 127.0.0.1 - - [05/Aug/2024 15:09:38] "GET /socket.io/?EIO=4&transport=polling&t=P4aALNd&sid=m8CsjXIJ_snL0WmoAAAE HTTP/1.1" 200 -
+2024-08-05 15:09:39,451 - INFO - Processing segment 1/1515...
+2024-08-05 15:09:40,575 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:09:40,577 - INFO - Subtopics generated: Company Overview, Employee Expectations, Benefits and Compensation, Performance Management, Professional Development
+2024-08-05 15:09:43,630 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:09:43,631 - INFO - Questions generated for subtopic 'Company Overview': Here are 5 questions that are relevant to the content provided:
+
+1. What is the title of the document?
+2. What is the version date of the handbook?
+3. What type of organization has the reader joined?
+4. What is the tone of the welcome message?
+5. What month and year is the handbook version current as of?
+2024-08-05 15:09:46,771 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:09:46,771 - INFO - Responses generated for question 'Here are 5 questions that are relevant to the content provided:': Here are 2 responses to the first question I found relevant:
+
+ Question: What is the title of the handbook?
+
+ Response 1: The title of the handbook is "Associate Handbook".
+
+ Response 2: The title is Associate Handbook, specifically the July 2023 Version.
+
+Please let me know if you would like me to generate responses to the other questions.
+2024-08-05 15:09:48,936 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:09:48,937 - INFO - Responses generated for question '1. What is the title of the document?': Here are two possible responses to the question based on the text:
+
+Response 1: The title of the document is "Associate Handbook".
+
+Response 2: The title of the document is "Associate Handbook, July 2023 Version".
+2024-08-05 15:09:51,083 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:09:51,083 - INFO - Responses generated for question '2. What is the version date of the handbook?': Here are two possible responses to the question based on the text:
+
+Response 1: The version date of the handbook is July 2023.
+
+Response 2: According to the handbook, the version date is July 2023.
+2024-08-05 15:09:53,353 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:09:53,354 - INFO - Responses generated for question '3. What type of organization has the reader joined?': Here are two possible responses to the question based on the text:
+
+Response 1: The reader has joined a dedicated organization.
+
+Response 2: The text does not provide more specific information, but it states that the reader has joined a dedicated organization.
+2024-08-05 15:09:56,835 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:09:56,836 - INFO - Responses generated for question '4. What is the tone of the welcome message?': Here are two possible responses to the question based on the text:
+
+Response 1: The tone of the welcome message is positive, as it uses the word "Welcome" and describes the organization as "dedicated".
+
+Response 2: The tone of the welcome message is warm and inclusive, as it uses a friendly greeting ("Welcome!") and implies that the new associate is now part of a committed team.
+2024-08-05 15:09:59,037 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:09:59,037 - INFO - Responses generated for question '5. What month and year is the handbook version current as of?': Here are two possible responses to the question based on the text:
+
+Response 1: The handbook version is current as of July 2023.
+
+Response 2: July 2023 is the month and year of the current handbook version.
+2024-08-05 15:10:02,057 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:10:02,057 - INFO - Questions generated for subtopic 'Employee Expectations': Here are 5 questions that are relevant to the content provided:
+
+1. What is the title of the document?
+2. What is the version date of the handbook?
+3. What type of organization has the reader joined?
+4. What is the purpose of the welcome message?
+5. In what month and year was the handbook version published?
+2024-08-05 15:10:05,307 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:10:05,308 - INFO - Responses generated for question 'Here are 5 questions that are relevant to the content provided:': Here are 2 responses to the first question I found relevant to the content:
+
+Question: What is the version of the Associate Handbook?
+
+Response 1: The version of the Associate Handbook is July 2023.
+
+Response 2: The Associate Handbook is the July 2023 Version.
+
+Please let me know if you would like me to generate responses to the other questions.
+2024-08-05 15:10:07,474 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:10:07,474 - INFO - Responses generated for question '1. What is the title of the document?': Here are two possible responses to the question based on the text:
+
+Response 1: The title of the document is "Associate Handbook".
+
+Response 2: The title of the document is "Associate Handbook, July 2023 Version".
+2024-08-05 15:10:09,626 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:10:09,627 - INFO - Responses generated for question '2. What is the version date of the handbook?': Here are two possible responses to the question based on the text:
+
+Response 1: The version date of the handbook is July 2023.
+
+Response 2: According to the handbook, the version date is July 2023.
+2024-08-05 15:10:12,242 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:10:12,242 - INFO - Responses generated for question '3. What type of organization has the reader joined?': Here are two possible responses to the question based on the text:
+
+Response 1: The reader has joined a dedicated organization.
+
+Response 2: The text does not provide a specific type of organization (e.g. non-profit, corporate, etc.), but it is described as a dedicated organization.
+2024-08-05 15:10:15,107 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:10:15,107 - INFO - Responses generated for question '4. What is the purpose of the welcome message?': Here are two possible responses to the question based on the text:
+
+Response 1: The purpose of the welcome message is to acknowledge that the reader has joined the organization.
+
+Response 2: The welcome message is intended to welcome new associates to the organization, as indicated by the phrase "You have just joined a dedicated organization."
+2024-08-05 15:10:17,284 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:10:17,284 - INFO - Responses generated for question '5. In what month and year was the handbook version published?': Here are two possible responses to the question based on the text:
+
+Response 1: The handbook version was published in July 2023.
+
+Response 2: July 2023 is the month and year of the handbook version's publication.
+2024-08-05 15:10:20,335 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:10:20,335 - INFO - Questions generated for subtopic 'Benefits and Compensation': Here are 5 questions that are relevant to the content provided:
+
+1. What is the title of the document?
+2. What is the version date of the handbook?
+3. What type of organization has the reader joined?
+4. What is the purpose of the welcome message?
+5. What month and year is the handbook version current as of?
+2024-08-05 15:10:20,528 - INFO - 127.0.0.1 - - [05/Aug/2024 15:10:20] "GET /socket.io/?EIO=4&transport=polling&t=P4aAWdk HTTP/1.1" 200 -
+2024-08-05 15:10:20,530 - INFO - 127.0.0.1 - - [05/Aug/2024 15:10:20] "POST /socket.io/?EIO=4&transport=polling&t=P4aAWdn&sid=_4f-wkLtrRc3J2HCAAAG HTTP/1.1" 200 -
+2024-08-05 15:10:20,530 - INFO - 127.0.0.1 - - [05/Aug/2024 15:10:20] "GET /socket.io/?EIO=4&transport=polling&t=P4aAWdn.0&sid=_4f-wkLtrRc3J2HCAAAG HTTP/1.1" 200 -
+2024-08-05 15:10:23,576 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:10:23,576 - INFO - Responses generated for question 'Here are 5 questions that are relevant to the content provided:': Here are 2 responses to the first question I found relevant in the text:
+
+Question: What is the version of the Associate Handbook?
+
+Response 1: The version of the Associate Handbook is July 2023.
+
+Response 2: The Associate Handbook is the July 2023 Version.
+
+Please let me know if you would like me to generate responses to the other questions.
+2024-08-05 15:10:25,708 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:10:25,708 - INFO - Responses generated for question '1. What is the title of the document?': Here are two possible responses to the question based on the text:
+
+Response 1: The title of the document is "Associate Handbook".
+
+Response 2: The title of the document is "Associate Handbook, July 2023 Version".
+2024-08-05 15:10:27,853 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:10:27,854 - INFO - Responses generated for question '2. What is the version date of the handbook?': Here are two possible responses to the question based on the text:
+
+Response 1: The version date of the handbook is July 2023.
+
+Response 2: According to the handbook, the version date is July 2023.
+2024-08-05 15:10:30,452 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:10:30,452 - INFO - Responses generated for question '3. What type of organization has the reader joined?': Here are two possible responses to the question based on the text:
+
+Response 1: The reader has joined a dedicated organization.
+
+Response 2: The text does not provide a specific type of organization (e.g. non-profit, corporate, etc.), but it is described as a dedicated organization.
+2024-08-05 15:10:33,290 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:10:33,290 - INFO - Responses generated for question '4. What is the purpose of the welcome message?': Here are two possible responses to the question based on the text:
+
+Response 1: The purpose of the welcome message is to acknowledge that the reader has joined the organization.
+
+Response 2: The welcome message is intended to greet new members of the organization, as indicated by the phrase "You have just joined a dedicated organization."
+2024-08-05 15:10:35,461 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:10:35,461 - INFO - Responses generated for question '5. What month and year is the handbook version current as of?': Here are two possible responses to the question based on the text:
+
+Response 1: The handbook version is current as of July 2023.
+
+Response 2: July 2023 is the month and year of the current handbook version.
+2024-08-05 15:10:38,497 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:10:38,498 - INFO - Questions generated for subtopic 'Performance Management': Here are 5 questions that are relevant to the content provided:
+
+1. What is the title of the document?
+2. What is the version date of the handbook?
+3. What type of organization has the reader joined?
+4. What is the tone of the welcome message?
+5. What is the month and year of the handbook's version?
+2024-08-05 15:10:41,741 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:10:41,741 - INFO - Responses generated for question 'Here are 5 questions that are relevant to the content provided:': Here are 2 responses to the first question I found relevant to the content:
+
+Question: What is the version of the Associate Handbook?
+
+Response 1: The version of the Associate Handbook is July 2023.
+
+Response 2: The Associate Handbook is the July 2023 Version.
+
+Please let me know if you would like me to generate responses to the other questions.
+2024-08-05 15:10:43,887 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:10:43,888 - INFO - Responses generated for question '1. What is the title of the document?': Here are two possible responses to the question based on the text:
+
+Response 1: The title of the document is "Associate Handbook".
+
+Response 2: The title of the document is "Associate Handbook, July 2023 Version".
+2024-08-05 15:10:45,528 - INFO - 127.0.0.1 - - [05/Aug/2024 15:10:45] "GET /socket.io/?EIO=4&transport=polling&t=P4aAWdp&sid=_4f-wkLtrRc3J2HCAAAG HTTP/1.1" 200 -
+2024-08-05 15:10:45,531 - INFO - 127.0.0.1 - - [05/Aug/2024 15:10:45] "POST /socket.io/?EIO=4&transport=polling&t=P4aAckP&sid=_4f-wkLtrRc3J2HCAAAG HTTP/1.1" 200 -
+2024-08-05 15:10:46,036 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:10:46,037 - INFO - Responses generated for question '2. What is the version date of the handbook?': Here are two possible responses to the question based on the text:
+
+Response 1: The version date of the handbook is July 2023.
+
+Response 2: According to the handbook, the version date is July 2023.
+2024-08-05 15:10:48,301 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:10:48,301 - INFO - Responses generated for question '3. What type of organization has the reader joined?': Here are two possible responses to the question based on the text:
+
+Response 1: The reader has joined a dedicated organization.
+
+Response 2: The text does not provide more specific information, but it states that the reader has joined a dedicated organization.
+2024-08-05 15:10:51,776 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:10:51,776 - INFO - Responses generated for question '4. What is the tone of the welcome message?': Here are two possible responses to the question based on the text:
+
+Response 1: The tone of the welcome message is positive, as it uses the word "Welcome" and describes the organization as "dedicated".
+
+Response 2: The tone of the welcome message is warm and inclusive, as it uses a friendly greeting ("Welcome!") and implies that the new associate is now part of a committed team.
+2024-08-05 15:10:53,898 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:10:53,898 - INFO - Responses generated for question '5. What is the month and year of the handbook's version?': Here are two possible responses to the question based on the text:
+
+Response 1: The handbook's version is July 2023.
+
+Response 2: The month and year of the handbook's version is July 2023.
+2024-08-05 15:10:56,923 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:10:56,924 - INFO - Questions generated for subtopic 'Professional Development': Here are 5 questions that are relevant to the content provided:
+
+1. What is the title of the document?
+2. What is the version date of the handbook?
+3. What type of organization has the reader joined?
+4. What is the purpose of the welcome message?
+5. What month and year is the handbook version current as of?
+2024-08-05 15:11:00,143 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:11:00,143 - INFO - Responses generated for question 'Here are 5 questions that are relevant to the content provided:': Here are 2 responses to the first question I found relevant in the text:
+
+Question: What is the version of the Associate Handbook?
+
+Response 1: The Associate Handbook is the July 2023 Version.
+
+Response 2: The version of the Associate Handbook is July 2023.
+
+Please let me know if you would like me to generate responses to the other questions.
+2024-08-05 15:11:01,301 - INFO -  * Detected change in 'C:\\Users\\theth\\OneDrive\\Documents\\GitHub\\Chatbot_Test_V1\\SynthDataApp\\app\\utils\\document_processing.py', reloading
+2024-08-05 15:11:01,397 - INFO -  * Restarting with stat
+2024-08-05 15:11:02,444 - WARNING -  * Debugger is active!
+2024-08-05 15:11:02,445 - INFO -  * Debugger PIN: 223-159-800
+2024-08-05 15:11:02,496 - ERROR - Invalid session _4f-wkLtrRc3J2HCAAAG (further occurrences of this error will be logged with level INFO)
+2024-08-05 15:11:02,497 - INFO - 127.0.0.1 - - [05/Aug/2024 15:11:02] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=P4aAgcE&sid=_4f-wkLtrRc3J2HCAAAG HTTP/1.1[0m" 400 -
+2024-08-05 15:11:03,569 - INFO - 127.0.0.1 - - [05/Aug/2024 15:11:03] "GET /socket.io/?EIO=4&transport=polling&t=P4aAh7d HTTP/1.1" 200 -
+2024-08-05 15:11:03,596 - INFO - 127.0.0.1 - - [05/Aug/2024 15:11:03] "POST /socket.io/?EIO=4&transport=polling&t=P4aAh8V&sid=EgikFXswgK-LlN0tAAAA HTTP/1.1" 200 -
+2024-08-05 15:11:03,610 - INFO - 127.0.0.1 - - [05/Aug/2024 15:11:03] "GET /socket.io/?EIO=4&transport=polling&t=P4aAh8V.0&sid=EgikFXswgK-LlN0tAAAA HTTP/1.1" 200 -
+2024-08-05 15:11:03,642 - INFO - 127.0.0.1 - - [05/Aug/2024 15:11:03] "GET /socket.io/?EIO=4&transport=polling&t=P4aAh9C&sid=EgikFXswgK-LlN0tAAAA HTTP/1.1" 200 -
+2024-08-05 15:11:03,660 - INFO - Processing segment 1/1435...
+2024-08-05 15:11:04,745 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:11:04,746 - INFO - Subtopics generated: Company Overview, Employee Expectations, Benefits and Compensation, Performance Management, Professional Development
+2024-08-05 15:11:13,403 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-05 15:11:13,403 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-05 15:11:13,403 - INFO -  * Restarting with stat
+2024-08-05 15:11:14,451 - WARNING -  * Debugger is active!
+2024-08-05 15:11:14,453 - INFO -  * Debugger PIN: 223-159-800
+2024-08-05 15:11:18,666 - INFO - 127.0.0.1 - - [05/Aug/2024 15:11:18] "GET /socket.io/?EIO=4&transport=polling&t=P4aAkq7 HTTP/1.1" 200 -
+2024-08-05 15:11:18,667 - INFO - 127.0.0.1 - - [05/Aug/2024 15:11:18] "POST /socket.io/?EIO=4&transport=polling&t=P4aAkqB&sid=dVVoQoLNCcQGEPoTAAAA HTTP/1.1" 200 -
+2024-08-05 15:11:18,667 - INFO - 127.0.0.1 - - [05/Aug/2024 15:11:18] "GET /socket.io/?EIO=4&transport=polling&t=P4aAkqB.0&sid=dVVoQoLNCcQGEPoTAAAA HTTP/1.1" 200 -
+2024-08-05 15:11:19,417 - INFO - 127.0.0.1 - - [05/Aug/2024 15:11:19] "POST /socket.io/?EIO=4&transport=polling&t=P4aAk_u&sid=dVVoQoLNCcQGEPoTAAAA HTTP/1.1" 200 -
+2024-08-05 15:11:19,418 - INFO - 127.0.0.1 - - [05/Aug/2024 15:11:19] "GET /socket.io/?EIO=4&transport=polling&t=P4aAkqD&sid=dVVoQoLNCcQGEPoTAAAA HTTP/1.1" 200 -
+2024-08-05 15:11:19,419 - INFO - 127.0.0.1 - - [05/Aug/2024 15:11:19] "GET / HTTP/1.1" 200 -
+2024-08-05 15:11:19,425 - INFO - 127.0.0.1 - - [05/Aug/2024 15:11:19] "GET /socket.io/?EIO=4&transport=polling&t=P4aAl01 HTTP/1.1" 200 -
+2024-08-05 15:11:19,427 - INFO - 127.0.0.1 - - [05/Aug/2024 15:11:19] "POST /socket.io/?EIO=4&transport=polling&t=P4aAl03&sid=J_CObSEEkpgnZjAcAAAC HTTP/1.1" 200 -
+2024-08-05 15:11:19,428 - INFO - 127.0.0.1 - - [05/Aug/2024 15:11:19] "GET /socket.io/?EIO=4&transport=polling&t=P4aAl03.0&sid=J_CObSEEkpgnZjAcAAAC HTTP/1.1" 200 -
+2024-08-05 15:11:24,578 - INFO - 127.0.0.1 - - [05/Aug/2024 15:11:24] "POST /socket.io/?EIO=4&transport=polling&t=P4aAmGX&sid=J_CObSEEkpgnZjAcAAAC HTTP/1.1" 200 -
+2024-08-05 15:11:24,578 - INFO - 127.0.0.1 - - [05/Aug/2024 15:11:24] "GET /socket.io/?EIO=4&transport=polling&t=P4aAl06&sid=J_CObSEEkpgnZjAcAAAC HTTP/1.1" 200 -
+2024-08-05 15:11:25,742 - INFO - Processing segment 1/1435...
+2024-08-05 15:11:26,827 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:11:26,829 - INFO - Subtopics generated: Company Overview, Employee Expectations, Benefits and Compensation, Performance Management, Company Policies
+2024-08-05 15:11:29,912 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:11:29,912 - INFO - Questions generated for subtopic 'Company Overview': Here are 5 questions that are relevant to the content provided:
+
+1. What is the title of the document?
+2. What is the version date of the handbook?
+3. What type of organization has the reader joined?
+4. What is the purpose of the welcome message?
+5. What month and year is the handbook version current as of?
+2024-08-05 15:11:33,154 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:11:33,154 - INFO - Responses generated for question 'Here are 5 questions that are relevant to the content provided:': Here are 2 responses to the first question I found relevant to the content:
+
+Question: What is the version of the Associate Handbook?
+
+Response 1: The version of the Associate Handbook is July 2023.
+
+Response 2: The Associate Handbook is the July 2023 Version.
+
+Please let me know if you would like me to generate responses to the other questions.
+2024-08-05 15:11:35,326 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:11:35,326 - INFO - Responses generated for question '1. What is the title of the document?': Here are two possible responses to the question based on the text:
+
+Response 1: The title of the document is "Associate Handbook".
+
+Response 2: The title of the document is "Associate Handbook, July 2023 Version".
+2024-08-05 15:11:37,489 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:11:37,490 - INFO - Responses generated for question '2. What is the version date of the handbook?': Here are two possible responses to the question based on the text:
+
+Response 1: The version date of the handbook is July 2023.
+
+Response 2: According to the handbook, the version date is July 2023.
+2024-08-05 15:11:39,231 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:11:39,232 - INFO - Responses generated for question '3. What type of organization has the reader joined?': Here are 2 possible responses to the question based on the text:
+
+1. The reader has joined a dedicated organization.
+2. The organization the reader has joined is described as dedicated.
+2024-08-05 15:11:42,069 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:11:42,070 - INFO - Responses generated for question '4. What is the purpose of the welcome message?': Here are two possible responses to the question based on the text:
+
+Response 1: The purpose of the welcome message is to acknowledge that the reader has joined the organization.
+
+Response 2: The welcome message is intended to greet new members of the organization, as indicated by the phrase "You have just joined a dedicated organization."
+2024-08-05 15:11:44,264 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:11:44,264 - INFO - Responses generated for question '5. What month and year is the handbook version current as of?': Here are two possible responses to the question based on the text:
+
+Response 1: The handbook version is current as of July 2023.
+
+Response 2: July 2023 is the month and year of the current handbook version.
+2024-08-05 15:11:47,316 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:11:47,316 - INFO - Questions generated for subtopic 'Employee Expectations': Here are 5 questions that are relevant to the content provided:
+
+1. What is the title of the document?
+2. What is the version date of the handbook?
+3. What type of organization has the reader joined?
+4. What is the purpose of the welcome message?
+5. What month and year is the handbook version current as of?
+2024-08-05 15:11:50,579 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:11:50,579 - INFO - Responses generated for question 'Here are 5 questions that are relevant to the content provided:': Here are 2 responses to the first question I found relevant to the content:
+
+Question: What is the version of the Associate Handbook?
+
+Response 1: The version of the Associate Handbook is July 2023.
+
+Response 2: The Associate Handbook is the July 2023 Version.
+
+Please let me know if you would like me to generate responses to the other questions.
+2024-08-05 15:11:52,736 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:11:52,736 - INFO - Responses generated for question '1. What is the title of the document?': Here are two possible responses to the question based on the text:
+
+Response 1: The title of the document is "Associate Handbook".
+
+Response 2: The title of the document is "Associate Handbook, July 2023 Version".
+2024-08-05 15:11:54,896 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:11:54,897 - INFO - Responses generated for question '2. What is the version date of the handbook?': Here are two possible responses to the question based on the text:
+
+Response 1: The version date of the handbook is July 2023.
+
+Response 2: According to the handbook, the version date is July 2023.
+2024-08-05 15:11:57,147 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:11:57,147 - INFO - Responses generated for question '3. What type of organization has the reader joined?': Here are two possible responses to the question based on the text:
+
+Response 1: The reader has joined a dedicated organization.
+
+Response 2: The text does not provide more specific information, but it states that the reader has joined a dedicated organization.
+2024-08-05 15:11:59,980 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:11:59,981 - INFO - Responses generated for question '4. What is the purpose of the welcome message?': Here are two possible responses to the question based on the text:
+
+Response 1: The purpose of the welcome message is to acknowledge that the reader has joined the organization.
+
+Response 2: The welcome message is intended to greet new members of the organization, as indicated by the phrase "You have just joined a dedicated organization."
+2024-08-05 15:12:02,187 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:12:02,187 - INFO - Responses generated for question '5. What month and year is the handbook version current as of?': Here are two possible responses to the question based on the text:
+
+Response 1: The handbook version is current as of July 2023.
+
+Response 2: July 2023 is the month and year of the current handbook version.
+2024-08-05 15:12:05,027 - INFO - 127.0.0.1 - - [05/Aug/2024 15:12:05] "GET /socket.io/?EIO=4&transport=polling&t=P4aAw8X HTTP/1.1" 200 -
+2024-08-05 15:12:05,028 - INFO - 127.0.0.1 - - [05/Aug/2024 15:12:05] "POST /socket.io/?EIO=4&transport=polling&t=P4aAw8a&sid=UZE3YygNbwH2XiDXAAAE HTTP/1.1" 200 -
+2024-08-05 15:12:05,029 - INFO - 127.0.0.1 - - [05/Aug/2024 15:12:05] "GET /socket.io/?EIO=4&transport=polling&t=P4aAw8a.0&sid=UZE3YygNbwH2XiDXAAAE HTTP/1.1" 200 -
+2024-08-05 15:12:05,229 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:12:05,229 - INFO - Questions generated for subtopic 'Benefits and Compensation': Here are 5 questions that are relevant to the content provided:
+
+1. What is the title of the document?
+2. What is the version date of the handbook?
+3. What type of organization has the reader joined?
+4. What is the tone of the welcome message?
+5. What is the month and year of the handbook's version?
+2024-08-05 15:12:08,455 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:12:08,456 - INFO - Responses generated for question 'Here are 5 questions that are relevant to the content provided:': Here are 2 responses to the first question I found relevant in the text:
+
+Question: What is the version of the Associate Handbook?
+
+Response 1: The Associate Handbook is the July 2023 Version.
+
+Response 2: The version of the Associate Handbook is July 2023.
+
+Please let me know if you would like me to generate responses to the other questions.
+2024-08-05 15:12:10,608 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:12:10,608 - INFO - Responses generated for question '1. What is the title of the document?': Here are two possible responses to the question based on the text:
+
+Response 1: The title of the document is "Associate Handbook".
+
+Response 2: The title of the document is "Associate Handbook, July 2023 Version".
+2024-08-05 15:12:12,766 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:12:12,767 - INFO - Responses generated for question '2. What is the version date of the handbook?': Here are two possible responses to the question based on the text:
+
+Response 1: The version date of the handbook is July 2023.
+
+Response 2: According to the handbook, the version date is July 2023.
+2024-08-05 15:12:14,535 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:12:14,536 - INFO - Responses generated for question '3. What type of organization has the reader joined?': Here are two possible responses to the question based on the text:
+
+1. The reader has joined a dedicated organization.
+2. The organization the reader has joined is described as dedicated.
+2024-08-05 15:12:17,880 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:12:17,880 - INFO - Responses generated for question '4. What is the tone of the welcome message?': Here are two possible responses to the question based on the text:
+
+Response 1: The tone of the welcome message is positive, as it uses the word "Welcome" and describes the organization as "dedicated".
+
+Response 2: The tone of the welcome message is warm and inclusive, as it uses a friendly greeting ("Welcome!") and acknowledges the new associate's membership in the organization.
+2024-08-05 15:12:19,977 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:12:19,977 - INFO - Responses generated for question '5. What is the month and year of the handbook's version?': Here are two possible responses to the question based on the text:
+
+Response 1: The handbook's version is July 2023.
+
+Response 2: The month and year of the handbook's version is July 2023.
+2024-08-05 15:12:23,008 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:12:23,009 - INFO - Questions generated for subtopic 'Performance Management': Here are 5 questions that are relevant to the content provided:
+
+1. What is the title of the document?
+2. What is the version date of the handbook?
+3. What type of organization has the reader joined?
+4. What is the tone of the welcome message?
+5. What month and year is the handbook version current as of?
+2024-08-05 15:12:26,117 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:12:26,118 - INFO - Responses generated for question 'Here are 5 questions that are relevant to the content provided:': Here are 2 responses to the first question I found relevant:
+
+ Question: What is the version of the Associate Handbook?
+
+Response 1: The Associate Handbook is the July 2023 Version.
+
+Response 2: The version of the Associate Handbook is July 2023.
+
+Please let me know if you would like me to generate responses to the other questions.
+2024-08-05 15:12:28,259 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:12:28,260 - INFO - Responses generated for question '1. What is the title of the document?': Here are two possible responses to the question based on the text:
+
+Response 1: The title of the document is "Associate Handbook".
+
+Response 2: The title of the document is "Associate Handbook, July 2023 Version".
+2024-08-05 15:12:30,027 - INFO - 127.0.0.1 - - [05/Aug/2024 15:12:30] "GET /socket.io/?EIO=4&transport=polling&t=P4aAw8c&sid=UZE3YygNbwH2XiDXAAAE HTTP/1.1" 200 -
+2024-08-05 15:12:30,029 - INFO - 127.0.0.1 - - [05/Aug/2024 15:12:30] "POST /socket.io/?EIO=4&transport=polling&t=P4aB0FC&sid=UZE3YygNbwH2XiDXAAAE HTTP/1.1" 200 -
+2024-08-05 15:12:30,419 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:12:30,419 - INFO - Responses generated for question '2. What is the version date of the handbook?': Here are two possible responses to the question based on the text:
+
+Response 1: The version date of the handbook is July 2023.
+
+Response 2: According to the handbook, the version date is July 2023.
+2024-08-05 15:12:33,062 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:12:33,063 - INFO - Responses generated for question '3. What type of organization has the reader joined?': Here are two possible responses to the question based on the text:
+
+Response 1: The reader has joined a dedicated organization.
+
+Response 2: The text does not provide a specific type of organization (e.g. non-profit, corporate, etc.), but it is described as a dedicated organization.
+2024-08-05 15:12:36,404 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:12:36,404 - INFO - Responses generated for question '4. What is the tone of the welcome message?': Here are two possible responses to the question based on the text:
+
+Response 1: The tone of the welcome message is positive, as it uses the word "Welcome" and describes the organization as "dedicated".
+
+Response 2: The tone of the welcome message is warm and inclusive, as it uses a friendly greeting ("Welcome!") and acknowledges the new associate's membership in the organization.
+2024-08-05 15:12:38,571 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:12:38,571 - INFO - Responses generated for question '5. What month and year is the handbook version current as of?': Here are two possible responses to the question based on the text:
+
+Response 1: The handbook version is current as of July 2023.
+
+Response 2: July 2023 is the month and year of the current handbook version.
+2024-08-05 15:12:44,360 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:12:44,361 - INFO - Questions generated for subtopic 'Company Policies': Here are 5 questions that are relevant to the content provided:
+
+1. What is the title of the document?
+2. What is the version date of the handbook?
+3. What type of organization has the reader joined?
+4. What is the purpose of the handbook? (Note: This question is a bit tricky, as the text doesn't explicitly state the purpose, but it's a reasonable inference to make)
+5. What is the first word of the welcome message?
+
+Answer key:
+
+1. Associate Handbook
+2. July 2023
+3. A dedicated organization
+4. (No explicit answer, but a possible inference is "to welcome and inform new associates")
+5. Welcome
+2024-08-05 15:12:47,520 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:12:47,520 - INFO - Responses generated for question 'Here are 5 questions that are relevant to the content provided:': Here are 2 responses to the first question I found relevant:
+
+ Question: What is the version of the Associate Handbook?
+
+Response 1: The Associate Handbook is the July 2023 Version.
+
+Response 2: The version of the Associate Handbook is July 2023.
+
+Please let me know if you would like me to generate responses to the other questions.
+2024-08-05 15:12:49,654 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:12:49,655 - INFO - Responses generated for question '1. What is the title of the document?': Here are two possible responses to the question based on the text:
+
+Response 1: The title of the document is "Associate Handbook".
+
+Response 2: The title of the document is "Associate Handbook, July 2023 Version".
+2024-08-05 15:12:51,836 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:12:51,836 - INFO - Responses generated for question '2. What is the version date of the handbook?': Here are two possible responses to the question based on the text:
+
+Response 1: The version date of the handbook is July 2023.
+
+Response 2: According to the handbook, the version date is July 2023.
+2024-08-05 15:12:54,112 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:12:54,113 - INFO - Responses generated for question '3. What type of organization has the reader joined?': Here are two possible responses to the question based on the text:
+
+Response 1: The reader has joined a dedicated organization.
+
+Response 2: The text does not provide more specific information, but it states that the reader has joined a dedicated organization.
+2024-08-05 15:12:55,030 - INFO - 127.0.0.1 - - [05/Aug/2024 15:12:55] "GET /socket.io/?EIO=4&transport=polling&t=P4aB0FC.0&sid=UZE3YygNbwH2XiDXAAAE HTTP/1.1" 200 -
+2024-08-05 15:12:55,032 - INFO - 127.0.0.1 - - [05/Aug/2024 15:12:55] "POST /socket.io/?EIO=4&transport=polling&t=P4aB6Lt&sid=UZE3YygNbwH2XiDXAAAE HTTP/1.1" 200 -
+2024-08-05 15:12:57,612 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:12:57,613 - INFO - Responses generated for question '4. What is the purpose of the handbook? (Note: This question is a bit tricky, as the text doesn't explicitly state the purpose, but it's a reasonable inference to make)': Here are two possible responses to the question based on the text:
+
+Response 1: The purpose of the handbook is not explicitly stated, but it appears to be a welcome and introductory document for new associates.
+
+Response 2: Although the text does not directly state the purpose, it can be inferred that the handbook serves as a guide or introduction for new associates, as evidenced by the "Welcome!" message.
+2024-08-05 15:12:59,248 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:12:59,248 - INFO - Responses generated for question '5. What is the first word of the welcome message?': Here are two possible responses to the question:
+
+Response 1: The first word of the welcome message is "Welcome".
+
+Response 2: The answer is "Welcome".
+2024-08-05 15:13:01,719 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:13:01,719 - INFO - Responses generated for question 'Answer key:': Here are 2 possible responses to the question "What is the version of the Associate Handbook?" based on the text:
+
+Response 1: The version of the Associate Handbook is July 2023.
+
+Response 2: The Associate Handbook is the July 2023 Version.
+2024-08-05 15:13:03,906 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:13:03,906 - INFO - Responses generated for question '1. Associate Handbook': Here are 2 possible responses to the question "Associate Handbook" based on the text:
+
+1. The Associate Handbook is dated July 2023 Version.
+2. The Associate Handbook is a document that welcomes new associates to a dedicated organization.
+2024-08-05 15:13:05,683 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:13:05,683 - INFO - Responses generated for question '2. July 2023': Here are 2 possible responses to the question "July 2023":
+
+1. It is the version of the Associate Handbook.
+2. It is the date/version of the handbook.
+2024-08-05 15:13:07,252 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:13:07,252 - INFO - Responses generated for question '3. A dedicated organization': Here are 2 possible responses to the question based on the text:
+
+1. You have just joined one.
+2. That's what you have just joined.
+2024-08-05 15:13:10,113 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:13:10,113 - INFO - Responses generated for question '4. (No explicit answer, but a possible inference is "to welcome and inform new associates")': Here are two possible responses to the question based on the text:
+
+Response 1: The purpose of this handbook is not explicitly stated, but it appears to be a resource for new associates.
+
+Response 2: The handbook seems to be intended to welcome new associates, as indicated by the "Welcome!" message at the beginning.
+2024-08-05 15:13:12,284 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:13:12,285 - INFO - Responses generated for question '5. Welcome': Here are two possible responses to the question "5. Welcome" based on the text:
+
+Response 1: You have just joined a dedicated organization.
+
+Response 2: This is the message that greets new associates, stating "Welcome!"
+2024-08-05 15:13:12,285 - INFO - Processing segment 2/1435...
+2024-08-05 15:13:13,166 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:13:13,167 - INFO - Subtopics generated: Employee Benefits, Career Advancement, Job Satisfaction, Professional Development, Workplace Culture
+2024-08-05 15:13:17,066 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:13:17,067 - INFO - Questions generated for subtopic 'Employee Benefits': Here are 5 questions that are relevant to the content provided:
+
+1. What is the name of the company mentioned in the text?
+2. What is the desired outcome of working at MD Billing?
+3. Is the employment at MD Billing expected to be easy or challenging?
+4. What two adjectives are used to describe the hoped-for employment experience at MD Billing?
+5. What is the overall sentiment expressed in the text regarding employment at MD Billing?
+2024-08-05 15:13:18,811 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:13:18,811 - INFO - Responses generated for question 'Here are 5 questions that are relevant to the content provided:': Unfortunately, there are no actual questions provided for me to respond to. Please provide the 5 questions, and I will generate 2 responses to each question based strictly on the text.
+2024-08-05 15:13:20,033 - INFO - 127.0.0.1 - - [05/Aug/2024 15:13:20] "GET /socket.io/?EIO=4&transport=polling&t=P4aB6Lt.0&sid=UZE3YygNbwH2XiDXAAAE HTTP/1.1" 200 -
+2024-08-05 15:13:20,036 - INFO - 127.0.0.1 - - [05/Aug/2024 15:13:20] "POST /socket.io/?EIO=4&transport=polling&t=P4aBCSY&sid=UZE3YygNbwH2XiDXAAAE HTTP/1.1" 200 -
+2024-08-05 15:13:20,517 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:13:20,518 - INFO - Responses generated for question '1. What is the name of the company mentioned in the text?': Here are two possible responses to the question:
+
+Response 1: The company mentioned in the text is MD Billing.
+
+Response 2: The name of the company is MD Billing.
+2024-08-05 15:13:22,943 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:13:22,943 - INFO - Responses generated for question '2. What is the desired outcome of working at MD Billing?': Here are two possible responses to the question based on the text:
+
+Response 1: The desired outcome of working at MD Billing is that it will be rewarding.
+
+Response 2: The desired outcome of working at MD Billing is that it will be both rewarding and challenging.
+2024-08-05 15:13:25,743 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:13:25,743 - INFO - Responses generated for question '3. Is the employment at MD Billing expected to be easy or challenging?': Here are two possible responses to the question based on the text:
+
+Response 1: According to the text, the employment at MD Billing is expected to be challenging.
+
+Response 2: The text states that the employment with MD Billing is hoped to be rewarding and challenging, indicating that it is not expected to be easy.
+2024-08-05 15:13:28,717 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:13:28,717 - INFO - Responses generated for question '4. What two adjectives are used to describe the hoped-for employment experience at MD Billing?': Here are two possible responses to the question:
+
+Response 1:
+The two adjectives used to describe the hoped-for employment experience at MD Billing are "rewarding" and "challenging".
+
+Response 2:
+According to the text, MD Billing hopes that the employment experience will be both "rewarding" and "challenging".
+2024-08-05 15:13:31,899 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:13:31,899 - INFO - Responses generated for question '5. What is the overall sentiment expressed in the text regarding employment at MD Billing?': Here are two possible responses to the question based on the text:
+
+Response 1: The overall sentiment expressed in the text is positive, as it states that employment with MD Billing is hoped to be "rewarding and challenging".
+
+Response 2: The text expresses a hopeful and optimistic sentiment regarding employment at MD Billing, describing it as potentially "rewarding and challenging".
+2024-08-05 15:13:35,629 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:13:35,630 - INFO - Questions generated for subtopic 'Career Advancement': Here are 5 questions that are relevant to the content provided:
+
+1. What is the name of the company mentioned in the text?
+2. What is the desired outcome of working at MD Billing?
+3. Is the employment at MD Billing expected to be easy or challenging?
+4. What kind of experience is MD Billing hoping its employees will have?
+5. What is the overall sentiment expressed in the text regarding employment at MD Billing?
+2024-08-05 15:13:37,315 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:13:37,316 - INFO - Responses generated for question 'Here are 5 questions that are relevant to the content provided:': Unfortunately, there are no questions provided for me to respond to. Please provide the 5 questions, and I will generate 2 responses to each question based on the text.
+2024-08-05 15:13:39,020 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:13:39,021 - INFO - Responses generated for question '1. What is the name of the company mentioned in the text?': Here are two possible responses to the question:
+
+Response 1: The company mentioned in the text is MD Billing.
+
+Response 2: The name of the company is MD Billing.
+2024-08-05 15:13:41,441 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:13:41,441 - INFO - Responses generated for question '2. What is the desired outcome of working at MD Billing?': Here are two possible responses to the question based on the text:
+
+Response 1: The desired outcome of working at MD Billing is that it will be rewarding.
+
+Response 2: The desired outcome of working at MD Billing is that it will be both rewarding and challenging.
+2024-08-05 15:13:44,262 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:13:44,263 - INFO - Responses generated for question '3. Is the employment at MD Billing expected to be easy or challenging?': Here are two possible responses to the question based on the text:
+
+Response 1: According to the text, the employment at MD Billing is expected to be challenging.
+
+Response 2: The text states that the employment with MD Billing is hoped to be rewarding and challenging, indicating that it is not expected to be easy.
+2024-08-05 15:13:45,036 - INFO - 127.0.0.1 - - [05/Aug/2024 15:13:45] "GET /socket.io/?EIO=4&transport=polling&t=P4aBCSY.0&sid=UZE3YygNbwH2XiDXAAAE HTTP/1.1" 200 -
+2024-08-05 15:13:45,039 - INFO - 127.0.0.1 - - [05/Aug/2024 15:13:45] "POST /socket.io/?EIO=4&transport=polling&t=P4aBIZC&sid=UZE3YygNbwH2XiDXAAAE HTTP/1.1" 200 -
+2024-08-05 15:13:46,409 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:13:46,409 - INFO - Responses generated for question '4. What kind of experience is MD Billing hoping its employees will have?': Here are two possible responses to the question based on the text:
+
+Response 1: MD Billing hopes that its employees will have a rewarding experience.
+
+Response 2: MD Billing hopes that its employees will have a rewarding and challenging experience.
+2024-08-05 15:13:49,570 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:13:49,571 - INFO - Responses generated for question '5. What is the overall sentiment expressed in the text regarding employment at MD Billing?': Here are two possible responses to the question based on the text:
+
+Response 1: The overall sentiment expressed in the text is positive, as it states that employment with MD Billing is hoped to be "rewarding and challenging".
+
+Response 2: The text expresses a hopeful and optimistic sentiment regarding employment at MD Billing, describing it as potentially "rewarding and challenging".
+2024-08-05 15:13:53,464 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:13:53,465 - INFO - Questions generated for subtopic 'Job Satisfaction': Here are 5 questions that are relevant to the content provided:
+
+1. What is the name of the company mentioned in the text?
+2. What is the desired outcome of working at MD Billing?
+3. Is the employment at MD Billing expected to be easy or challenging?
+4. What two adjectives are used to describe the hoped-for employment experience at MD Billing?
+5. What is the overall sentiment expressed in the text regarding employment at MD Billing?
+2024-08-05 15:13:55,146 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:13:55,146 - INFO - Responses generated for question 'Here are 5 questions that are relevant to the content provided:': Unfortunately, there are no questions provided for me to respond to. Please provide the 5 questions, and I will generate 2 responses to each question based on the text.
+2024-08-05 15:13:56,846 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:13:56,846 - INFO - Responses generated for question '1. What is the name of the company mentioned in the text?': Here are two possible responses to the question:
+
+Response 1: The company mentioned in the text is MD Billing.
+
+Response 2: The name of the company is MD Billing.
+2024-08-05 15:13:59,286 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:13:59,287 - INFO - Responses generated for question '2. What is the desired outcome of working at MD Billing?': Here are two possible responses to the question based on the text:
+
+Response 1: The desired outcome of working at MD Billing is that it will be rewarding.
+
+Response 2: The desired outcome of working at MD Billing is that it will be both rewarding and challenging.
+2024-08-05 15:14:01,997 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:14:01,997 - INFO - Responses generated for question '3. Is the employment at MD Billing expected to be easy or challenging?': Here are 2 possible responses to the question based on the text:
+
+Response 1: According to the text, employment at MD Billing is expected to be challenging.
+
+Response 2: The text states that employment at MD Billing will be rewarding and challenging, indicating that it is not expected to be easy.
+2024-08-05 15:14:05,105 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:14:05,106 - INFO - Responses generated for question '4. What two adjectives are used to describe the hoped-for employment experience at MD Billing?': Here are two possible responses to the question:
+
+Response 1: The two adjectives used to describe the hoped-for employment experience at MD Billing are "rewarding" and "challenging".
+
+Response 2: According to the text, MD Billing hopes that the employment experience will be both "rewarding" and "challenging".
+2024-08-05 15:14:08,237 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:14:08,237 - INFO - Responses generated for question '5. What is the overall sentiment expressed in the text regarding employment at MD Billing?': Here are two possible responses to the question based on the text:
+
+Response 1: The overall sentiment expressed in the text is positive, as it is hoped that employment with MD Billing will be "rewarding".
+
+Response 2: The text expresses a positive sentiment towards employment at MD Billing, describing it as both "rewarding" and "challenging".
+2024-08-05 15:14:10,039 - INFO - 127.0.0.1 - - [05/Aug/2024 15:14:10] "GET /socket.io/?EIO=4&transport=polling&t=P4aBIZD&sid=UZE3YygNbwH2XiDXAAAE HTTP/1.1" 200 -
+2024-08-05 15:14:10,041 - INFO - 127.0.0.1 - - [05/Aug/2024 15:14:10] "POST /socket.io/?EIO=4&transport=polling&t=P4aBOfu&sid=UZE3YygNbwH2XiDXAAAE HTTP/1.1" 200 -
+2024-08-05 15:14:11,953 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:14:11,953 - INFO - Questions generated for subtopic 'Professional Development': Here are 5 questions that are relevant to the content provided:
+
+1. What is the name of the company mentioned in the text?
+2. What is the desired outcome of working at MD Billing?
+3. Is the employment at MD Billing expected to be easy or challenging?
+4. What kind of experience is MD Billing hoping its employees will have?
+5. What is the overall sentiment expressed in the text regarding employment at MD Billing?
+2024-08-05 15:14:14,790 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:14:14,791 - INFO - Responses generated for question 'Here are 5 questions that are relevant to the content provided:': I'm happy to help, but I don't see 5 questions provided. Please provide the questions, and I'll generate 2 responses to each question based on the text.
+
+If you meant to provide only one question, please let me know what it is, and I'll generate 2 responses based on the text.
+2024-08-05 15:14:16,519 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:14:16,519 - INFO - Responses generated for question '1. What is the name of the company mentioned in the text?': Here are two possible responses to the question:
+
+Response 1: The company mentioned in the text is MD Billing.
+
+Response 2: The name of the company is MD Billing.
+2024-08-05 15:14:18,931 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:14:18,931 - INFO - Responses generated for question '2. What is the desired outcome of working at MD Billing?': Here are two possible responses to the question based on the text:
+
+Response 1: The desired outcome of working at MD Billing is that it will be rewarding.
+
+Response 2: The desired outcome of working at MD Billing is that it will be both rewarding and challenging.
+2024-08-05 15:14:21,746 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:14:21,747 - INFO - Responses generated for question '3. Is the employment at MD Billing expected to be easy or challenging?': Here are two possible responses to the question based on the text:
+
+Response 1: According to the text, the employment at MD Billing is expected to be challenging.
+
+Response 2: The text states that the employment with MD Billing is hoped to be rewarding and challenging, indicating that it is not expected to be easy.
+2024-08-05 15:14:23,899 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:14:23,899 - INFO - Responses generated for question '4. What kind of experience is MD Billing hoping its employees will have?': Here are two possible responses to the question based on the text:
+
+Response 1: MD Billing hopes that its employees will have a rewarding experience.
+
+Response 2: MD Billing hopes that its employees will have a rewarding and challenging experience.
+2024-08-05 15:14:57,868 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-05 15:14:57,868 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-05 15:14:57,868 - INFO -  * Restarting with stat
+2024-08-05 15:14:58,895 - WARNING -  * Debugger is active!
+2024-08-05 15:14:58,896 - INFO -  * Debugger PIN: 223-159-800
+2024-08-05 15:15:05,002 - INFO - 127.0.0.1 - - [05/Aug/2024 15:15:05] "GET / HTTP/1.1" 200 -
+2024-08-05 15:15:05,018 - INFO - 127.0.0.1 - - [05/Aug/2024 15:15:05] "GET /socket.io/?EIO=4&transport=polling&t=P4aBc4v HTTP/1.1" 200 -
+2024-08-05 15:15:05,025 - INFO - 127.0.0.1 - - [05/Aug/2024 15:15:05] "POST /socket.io/?EIO=4&transport=polling&t=P4aBc4_&sid=8lDeWv4YO2Bv2cGoAAAA HTTP/1.1" 200 -
+2024-08-05 15:15:05,025 - INFO - 127.0.0.1 - - [05/Aug/2024 15:15:05] "GET /socket.io/?EIO=4&transport=polling&t=P4aBc4_.0&sid=8lDeWv4YO2Bv2cGoAAAA HTTP/1.1" 200 -
+2024-08-05 15:15:12,783 - INFO - 127.0.0.1 - - [05/Aug/2024 15:15:12] "POST /socket.io/?EIO=4&transport=polling&t=P4aBd-E&sid=8lDeWv4YO2Bv2cGoAAAA HTTP/1.1" 200 -
+2024-08-05 15:15:12,783 - INFO - 127.0.0.1 - - [05/Aug/2024 15:15:12] "GET /socket.io/?EIO=4&transport=polling&t=P4aBc52&sid=8lDeWv4YO2Bv2cGoAAAA HTTP/1.1" 200 -
+2024-08-05 15:15:13,943 - INFO - Skipping segment 1 due to insufficient content.
+2024-08-05 15:15:13,943 - INFO - Processing segment 2/2...
+2024-08-05 15:15:51,500 - INFO - 127.0.0.1 - - [05/Aug/2024 15:15:51] "GET /socket.io/?EIO=4&transport=polling&t=P4aBnRB HTTP/1.1" 200 -
+2024-08-05 15:15:51,501 - INFO - 127.0.0.1 - - [05/Aug/2024 15:15:51] "POST /socket.io/?EIO=4&transport=polling&t=P4aBnRD&sid=4_atEbWVUgcy0iDNAAAC HTTP/1.1" 200 -
+2024-08-05 15:15:51,503 - INFO - 127.0.0.1 - - [05/Aug/2024 15:15:51] "GET /socket.io/?EIO=4&transport=polling&t=P4aBnRD.0&sid=4_atEbWVUgcy0iDNAAAC HTTP/1.1" 200 -
+2024-08-05 15:16:14,920 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:16:14,921 - INFO - Subtopics generated: Corporate Contact Information, Ethics Code, Mission Statement, Values, Goals, Open Door Policy, Employment at Will, Disability Accommodation, Pregnant Worker Fairness Act, Religious Accommodation, Prohibiting Harassment and Discrimination, Policy Against Workplace Harassment, Policy Against Violence, Conflict Resolution, Alternative Dispute Resolution, Employment Status, Outside Employment, Personal Data Changes, Personnel and Medical Records, Employment Resignations, Exit Interview, Post-Employment Reference Policy, Compensation and Benefits, Benefit Policies, Holiday Observance, Workers’ Compensation Insurance, Unemployment Compensation Insurance, New Associates and Introductory Periods, Clinical Associate Evaluations and Assessments, Performance Improvement, Promotions, Pay Raises, Transfer, Workforce Reductions (Layoffs), Wage and Hours Policies, Revenue Share Compensation, Bonus Compensation, Holiday Differential Compensation, Work Schedules, Time Keeping, Rest and Meal Periods, Off The Clock Work, Overtime Authorization for Non-exempt Associates, Remote Work Policy, Travel Time Pay, Travel Expenses, Business Expenses, Use of Company Credit Cards, Pay Period, Direct Deposit, Lost or Stolen Paychecks, Paycheck Deductions, Payroll Advances and Loans, Attendance and Leave, Attendance Policy, Paid Time Off (PTO), Compensatory Time Off Policy, Emergency Closings, Bereavement Leave, Jury Duty Leave, Court Attendance and Witness Leave, Voting Leave, Leave of Absence, Safety and Compliance, Employment Requirements, Job Descriptions, Mandatory Training, Mandatory Certification and Licensure Requirements, Safety Policy Statement, Emergency Procedures, Hazardous Chemicals and Your Right to Know, Safety Enforcement, Associate Injury and Claims Reporting, Return to Work Policy, Medical Treatment of Associates, Health Insurance Portability & Accountability Act HIPAA, Protection of Property, Intellectual Property, Telephone Use, Mail Use, Company-Provided Mobile Device Policy, Personal Mobile Device Use, Voicemail, Email, and Internet Policy, Social Media Policy, Password Policy and Requirements, Computer Security and Copying of Software, Privacy and Right to Inspect, Vehicles, Equipment, Tools, or Uniforms on Loan, Off-Duty Use of Company Property or Premises, Driving Policy, Personal Appearance, Solicitations and Distribution, Visitors in the Workplace, Company Social Events, Third Party Disclosures, Standards of Conduct, Disciplinary Process, Grievance Procedure, Tobacco and Vape-Free Workplace Policy, Drug and Alcohol Policy, Substance Abuse Policy, Criminal Activity/Arrests.
+2024-08-05 15:16:16,501 - INFO - 127.0.0.1 - - [05/Aug/2024 15:16:16] "GET /socket.io/?EIO=4&transport=polling&t=P4aBnRF&sid=4_atEbWVUgcy0iDNAAAC HTTP/1.1" 200 -
+2024-08-05 15:16:16,503 - INFO - 127.0.0.1 - - [05/Aug/2024 15:16:16] "POST /socket.io/?EIO=4&transport=polling&t=P4aBtXs&sid=4_atEbWVUgcy0iDNAAAC HTTP/1.1" 200 -
+2024-08-05 15:16:41,504 - INFO - 127.0.0.1 - - [05/Aug/2024 15:16:41] "GET /socket.io/?EIO=4&transport=polling&t=P4aBtXt&sid=4_atEbWVUgcy0iDNAAAC HTTP/1.1" 200 -
+2024-08-05 15:16:41,506 - INFO - 127.0.0.1 - - [05/Aug/2024 15:16:41] "POST /socket.io/?EIO=4&transport=polling&t=P4aBzeX&sid=4_atEbWVUgcy0iDNAAAC HTTP/1.1" 200 -
+2024-08-05 15:17:04,134 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:17:04,135 - INFO - Questions generated for subtopic 'Corporate Contact Information': Here are five questions that are relevant to the content provided:
+
+1. What is the purpose of the MD Billing Associate Handbook, and what does it cover?
+
+(Answer: The purpose of the handbook is to provide associates with an understanding of the company's mission, history, and structure, as well as its current policies and guidelines. It covers various topics, including employment policies, benefits, safety procedures, and standards of conduct.)
+
+2. What is the company's policy on harassment and discrimination, and how does it handle complaints?
+
+(Answer: The company has a strict policy against all types of workplace harassment and discrimination. It encourages associates to report any incidents to their supervisor or HR, and it will investigate and take corrective action if necessary.)
+
+3. What are the company's expectations regarding associate attendance and punctuality, and what are the consequences of excessive absenteeism?
+
+(Answer: The company expects associates to report to work on time and be prepared to start working. Excessive absenteeism is defined as two or more occurrences of unexcused absence in a 30-day period or three or more occurrences in a 90-day period, and it may result in disciplinary action, including termination.)
+
+4. What is the company's policy on social media use, and what are the guidelines for associates who use social media?
+
+(Answer: The company allows associates to use social media, but it expects them to follow certain guidelines, including being respectful, maintaining accuracy and confidentiality, and not representing themselves as speaking on behalf of the company.)
+
+5. What is the company's policy on substance abuse, and what are the consequences of violating this policy?
+
+(Answer: The company has a zero-tolerance policy on substance abuse, and it prohibits associates from using, selling, possessing, or being under the influence of illegal drugs or controlled substances while on company property or on work time. Violating this policy may result in immediate termination.)
+2024-08-05 15:17:06,506 - INFO - 127.0.0.1 - - [05/Aug/2024 15:17:06] "GET /socket.io/?EIO=4&transport=polling&t=P4aBzeX.0&sid=4_atEbWVUgcy0iDNAAAC HTTP/1.1" 200 -
+2024-08-05 15:17:06,508 - INFO - 127.0.0.1 - - [05/Aug/2024 15:17:06] "POST /socket.io/?EIO=4&transport=polling&t=P4aC3lC&sid=4_atEbWVUgcy0iDNAAAC HTTP/1.1" 200 -
+2024-08-05 15:17:18,234 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:17:18,234 - INFO - Responses generated for question 'Here are five questions that are relevant to the content provided:': I'm ready to help. What are the five questions?
+2024-08-05 15:17:31,509 - INFO - 127.0.0.1 - - [05/Aug/2024 15:17:31] "GET /socket.io/?EIO=4&transport=polling&t=P4aC3lC.0&sid=4_atEbWVUgcy0iDNAAAC HTTP/1.1" 200 -
+2024-08-05 15:17:31,511 - INFO - 127.0.0.1 - - [05/Aug/2024 15:17:31] "POST /socket.io/?EIO=4&transport=polling&t=P4aC9rt&sid=4_atEbWVUgcy0iDNAAAC HTTP/1.1" 200 -
+2024-08-05 15:17:43,471 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:17:43,472 - INFO - Responses generated for question '1. What is the purpose of the MD Billing Associate Handbook, and what does it cover?': According to the text, the purpose of the MD Billing Associate Handbook is to provide associates with an understanding of the Company's mission, history, and structure as well as its current policies and guidelines. The handbook covers various topics, including the Company's ethics code, employment policies, benefits, compensation, safety and compliance, and standards of conduct.
+
+Alternatively, the handbook can be described as a comprehensive guide that outlines the Company's expectations, policies, and procedures, aiming to create a safe, productive, and pleasant workplace for all associates.
+
+Please note that both responses are based solely on the provided text and do not include any external information.
+2024-08-05 15:17:56,512 - INFO - 127.0.0.1 - - [05/Aug/2024 15:17:56] "GET /socket.io/?EIO=4&transport=polling&t=P4aC9rt.0&sid=4_atEbWVUgcy0iDNAAAC HTTP/1.1" 200 -
+2024-08-05 15:17:56,515 - INFO - 127.0.0.1 - - [05/Aug/2024 15:17:56] "POST /socket.io/?EIO=4&transport=polling&t=P4aCFyY&sid=4_atEbWVUgcy0iDNAAAC HTTP/1.1" 200 -
+2024-08-05 15:18:04,068 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:18:04,069 - INFO - Responses generated for question '(Answer: The purpose of the handbook is to provide associates with an understanding of the company's mission, history, and structure, as well as its current policies and guidelines. It covers various topics, including employment policies, benefits, safety procedures, and standards of conduct.)': Here are two possible responses to the question:
+
+Response 1:
+The purpose of the handbook is to provide associates with an understanding of the company's mission, history, and structure, as well as its current policies and guidelines.
+
+Response 2:
+The handbook covers various topics, including employment policies, benefits, safety procedures, and standards of conduct, in order to provide associates with a comprehensive understanding of the company's expectations and policies.
+2024-08-05 15:18:21,516 - INFO - 127.0.0.1 - - [05/Aug/2024 15:18:21] "GET /socket.io/?EIO=4&transport=polling&t=P4aCFyY.0&sid=4_atEbWVUgcy0iDNAAAC HTTP/1.1" 200 -
+2024-08-05 15:18:21,518 - INFO - 127.0.0.1 - - [05/Aug/2024 15:18:21] "POST /socket.io/?EIO=4&transport=polling&t=P4aCM3D&sid=4_atEbWVUgcy0iDNAAAC HTTP/1.1" 200 -
+2024-08-05 15:18:38,883 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:18:38,883 - INFO - Responses generated for question '2. What is the company's policy on harassment and discrimination, and how does it handle complaints?': Here are two possible responses to the question:
+
+**Response 1**
+MD Billing has a strict policy against all types of workplace harassment, including sexual harassment and other forms of workplace harassment based on an individual's sex, gender, race, religion, color, national origin, physical or mental disability, marital status, age, sexual orientation, gender identity, or any other status protected by federal, state, or local laws. The company prohibits retaliation against any associate who provides information about, complains, or assists in the investigation of any complaint of harassment or discrimination.
+
+**Response 2**
+MD Billing is committed to the principles of equal employment and complies with all federal, state, and local laws providing equal employment opportunities. The company prohibits harassment, discrimination, or retaliation because of sex, gender, race, religion, color, national origin, physical or mental disability, genetic information, marital status, age, sexual orientation, gender identity, military service, veteran status, or any other status protected by federal, state, or local laws. The company will conduct a prompt and thorough investigation of all allegations of discrimination, harassment, or retaliation, and take appropriate corrective action if warranted.
+2024-08-05 15:18:46,519 - INFO - 127.0.0.1 - - [05/Aug/2024 15:18:46] "GET /socket.io/?EIO=4&transport=polling&t=P4aCM3D.0&sid=4_atEbWVUgcy0iDNAAAC HTTP/1.1" 200 -
+2024-08-05 15:18:46,521 - INFO - 127.0.0.1 - - [05/Aug/2024 15:18:46] "POST /socket.io/?EIO=4&transport=polling&t=P4aCS9u&sid=4_atEbWVUgcy0iDNAAAC HTTP/1.1" 200 -
+2024-08-05 15:19:01,973 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:19:01,974 - INFO - Responses generated for question '(Answer: The company has a strict policy against all types of workplace harassment and discrimination. It encourages associates to report any incidents to their supervisor or HR, and it will investigate and take corrective action if necessary.)': Here are two possible responses to the question:
+
+Response 1:
+MD Billing has a zero-tolerance policy towards workplace harassment and discrimination. Associates are encouraged to report any incidents to their supervisor or Human Resources, and the company will investigate and take corrective action if necessary.
+
+Response 2:
+The company prohibits all forms of workplace harassment and discrimination, including sexual harassment, and has a process in place for associates to report incidents. Reports can be made to supervisors or Human Resources, and the company will investigate and take action to correct the behavior if necessary.
+2024-08-05 15:19:11,522 - INFO - 127.0.0.1 - - [05/Aug/2024 15:19:11] "GET /socket.io/?EIO=4&transport=polling&t=P4aCS9u.0&sid=4_atEbWVUgcy0iDNAAAC HTTP/1.1" 200 -
+2024-08-05 15:19:11,524 - INFO - 127.0.0.1 - - [05/Aug/2024 15:19:11] "POST /socket.io/?EIO=4&transport=polling&t=P4aCYGZ&sid=4_atEbWVUgcy0iDNAAAC HTTP/1.1" 200 -
+2024-08-05 15:19:30,845 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:19:30,846 - INFO - Responses generated for question '3. What are the company's expectations regarding associate attendance and punctuality, and what are the consequences of excessive absenteeism?': According to the text, MD Billing expects associates to report to work as scheduled, on time, and prepared to start working. Associates are also expected to remain at work for their entire work schedule. Late arrival, early departure, or other absences from scheduled hours are disruptive and must be avoided.
+
+Excessive absenteeism is defined as two or more occurrences of unexcused absence in a 30-day period or three or more occurrences in a 90-day period. This will result in disciplinary action. Eight occurrences of unexcused absence in a 12-month period are considered grounds for termination.
+
+Associates who are absent for two or more consecutive days due to illness or injury must provide proof of physician's care and a fitness for duty release prior to returning to work. Associates must also take earned PTO for every absence unless otherwise allowed by company policy.
+2024-08-05 15:19:36,525 - INFO - 127.0.0.1 - - [05/Aug/2024 15:19:36] "GET /socket.io/?EIO=4&transport=polling&t=P4aCYGZ.0&sid=4_atEbWVUgcy0iDNAAAC HTTP/1.1" 200 -
+2024-08-05 15:19:36,527 - INFO - 127.0.0.1 - - [05/Aug/2024 15:19:36] "POST /socket.io/?EIO=4&transport=polling&t=P4aCeND&sid=4_atEbWVUgcy0iDNAAAC HTTP/1.1" 200 -
+2024-08-05 15:19:56,324 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:19:56,324 - INFO - Responses generated for question '(Answer: The company expects associates to report to work on time and be prepared to start working. Excessive absenteeism is defined as two or more occurrences of unexcused absence in a 30-day period or three or more occurrences in a 90-day period, and it may result in disciplinary action, including termination.)': Here are two possible responses to the question:
+
+Response 1:
+According to the company's attendance policy, associates are expected to report to work on time and be prepared to start working. Excessive absenteeism is defined as two or more occurrences of unexcused absence in a 30-day period or three or more occurrences in a 90-day period.
+
+Response 2:
+The company requires associates to report to work as scheduled, on time, and prepared to start working. Excessive absenteeism, which includes two or more unexcused absences in a 30-day period or three or more in a 90-day period, may result in disciplinary action, including termination.
+2024-08-05 15:20:01,527 - INFO - 127.0.0.1 - - [05/Aug/2024 15:20:01] "GET /socket.io/?EIO=4&transport=polling&t=P4aCeND.0&sid=4_atEbWVUgcy0iDNAAAC HTTP/1.1" 200 -
+2024-08-05 15:20:01,531 - INFO - 127.0.0.1 - - [05/Aug/2024 15:20:01] "POST /socket.io/?EIO=4&transport=polling&t=P4aCkTu&sid=4_atEbWVUgcy0iDNAAAC HTTP/1.1" 200 -
+2024-08-05 15:20:26,531 - INFO - 127.0.0.1 - - [05/Aug/2024 15:20:26] "GET /socket.io/?EIO=4&transport=polling&t=P4aCkTv&sid=4_atEbWVUgcy0iDNAAAC HTTP/1.1" 200 -
+2024-08-05 15:20:26,533 - INFO - 127.0.0.1 - - [05/Aug/2024 15:20:26] "POST /socket.io/?EIO=4&transport=polling&t=P4aCqaZ&sid=4_atEbWVUgcy0iDNAAAC HTTP/1.1" 200 -
+2024-08-05 15:20:26,625 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:20:26,626 - INFO - Responses generated for question '4. What is the company's policy on social media use, and what are the guidelines for associates who use social media?': Response 1:
+The company's policy on social media use is outlined in the Social Media Policy section of the handbook. According to this policy, associates are expected to follow certain guidelines when using social media, including being respectful, maintaining accuracy and confidentiality, and not engaging in behavior that could offend, intimidate, embarrass, or upset others. Associates are also prohibited from representing themselves as spokespersons for the company or discussing company business on social media without authorization.
+
+Response 2:
+The company's social media policy requires associates to use social media responsibly and in a way that reflects positively on the company. The guidelines for associates include being respectful and courteous, avoiding discussions of company business or confidential information, and not engaging in behavior that could be considered harassment or bullying. Associates are also expected to follow the company's code of conduct and to report any concerns or issues related to social media use to their supervisor or HR representative.
+2024-08-05 15:20:51,533 - INFO - 127.0.0.1 - - [05/Aug/2024 15:20:51] "GET /socket.io/?EIO=4&transport=polling&t=P4aCqaZ.0&sid=4_atEbWVUgcy0iDNAAAC HTTP/1.1" 200 -
+2024-08-05 15:20:51,535 - INFO - 127.0.0.1 - - [05/Aug/2024 15:20:51] "POST /socket.io/?EIO=4&transport=polling&t=P4aCwhE&sid=4_atEbWVUgcy0iDNAAAC HTTP/1.1" 200 -
+2024-08-05 15:20:52,769 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:20:52,769 - INFO - Responses generated for question '(Answer: The company allows associates to use social media, but it expects them to follow certain guidelines, including being respectful, maintaining accuracy and confidentiality, and not representing themselves as speaking on behalf of the company.)': Here are two possible responses to the question:
+
+Response 1:
+The company permits associates to use social media, but they must follow certain guidelines. Associates are expected to be respectful and not post anything that could offend, intimidate, or embarrass others. They must also maintain accuracy and confidentiality, and not disclose any company trade secrets or confidential information.
+
+Response 2:
+Associates are allowed to use social media, but they must do so in a way that is respectful and professional. They should not post anything that could be considered harassment or bullying, and they must not represent themselves as speaking on behalf of the company. Associates are also expected to maintain confidentiality and not disclose any company secrets or confidential information.
+2024-08-05 15:21:16,536 - INFO - 127.0.0.1 - - [05/Aug/2024 15:21:16] "GET /socket.io/?EIO=4&transport=polling&t=P4aCwhE.0&sid=4_atEbWVUgcy0iDNAAAC HTTP/1.1" 200 -
+2024-08-05 15:21:16,538 - INFO - 127.0.0.1 - - [05/Aug/2024 15:21:16] "POST /socket.io/?EIO=4&transport=polling&t=P4aD0nv&sid=4_atEbWVUgcy0iDNAAAC HTTP/1.1" 200 -
+2024-08-05 15:21:41,539 - INFO - 127.0.0.1 - - [05/Aug/2024 15:21:41] "GET /socket.io/?EIO=4&transport=polling&t=P4aD0nw&sid=4_atEbWVUgcy0iDNAAAC HTTP/1.1" 200 -
+2024-08-05 15:21:41,541 - INFO - 127.0.0.1 - - [05/Aug/2024 15:21:41] "POST /socket.io/?EIO=4&transport=polling&t=P4aD6ua&sid=4_atEbWVUgcy0iDNAAAC HTTP/1.1" 200 -
+2024-08-05 15:21:41,621 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:21:41,622 - INFO - Responses generated for question '5. What is the company's policy on substance abuse, and what are the consequences of violating this policy?': According to the company's policy, substance abuse is strictly prohibited, and associates are expected to be free from the influence of substances while on company property, company worksites, or while on company business. The company reserves the right to conduct drug testing in various circumstances, including pre-employment, random testing, and post-accident testing. If an associate tests positive for substances, they will be terminated immediately.
+
+The company also prohibits the possession, purchase, sale, or transfer of illegal drugs while on company property, company worksites, or while on company business. Any associate found to be engaging in such activities will be terminated immediately and may be subject to criminal investigation and/or prosecution.
+
+Additionally, associates who are convicted of violating a criminal drug statute in the workplace must notify the human resource department within five days of conviction and will be terminated immediately.
+
+Overall, the company takes a zero-tolerance approach to substance abuse and will take disciplinary action, up to and including termination, for any associate who violates this policy.
+
+**Response 2**
+
+The company's policy on substance abuse is outlined in the associate handbook, which states that substance abuse is a serious matter that will not be tolerated. The company prohibits associates from using, selling, possessing, or being under the influence of illegal drugs, alcohol, or a controlled substance or prescription drug not medically authorized while at their job, on company property, or while on work time.
+
+The consequences of violating this policy include termination of employment, as well as possible criminal investigation and/or prosecution. The company also reserves the right to conduct drug testing in various circumstances, including pre-employment, random testing, and post-accident testing. Associates who test positive for substances or are found to be engaging in substance-related activities while on company property or while on company business will be subject to disciplinary action, up to and including termination.
+2024-08-05 15:22:05,440 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:22:05,440 - INFO - Responses generated for question '(Answer: The company has a zero-tolerance policy on substance abuse, and it prohibits associates from using, selling, possessing, or being under the influence of illegal drugs or controlled substances while on company property or on work time. Violating this policy may result in immediate termination.)': Here are two possible responses to the question:
+
+Response 1:
+According to the company's policy, associates are prohibited from using, selling, possessing, or being under the influence of illegal drugs or controlled substances while on company property or on work time. Violating this policy may result in disciplinary action, including immediate termination.
+
+Response 2:
+The company has a zero-tolerance policy on substance abuse, and associates are expected to be free from the influence of illegal drugs or controlled substances while on company property or on work time. Failure to comply with this policy may result in immediate termination.
+2024-08-05 15:22:06,542 - INFO - 127.0.0.1 - - [05/Aug/2024 15:22:06] "GET /socket.io/?EIO=4&transport=polling&t=P4aD6ub&sid=4_atEbWVUgcy0iDNAAAC HTTP/1.1" 200 -
+2024-08-05 15:22:06,544 - INFO - 127.0.0.1 - - [05/Aug/2024 15:22:06] "POST /socket.io/?EIO=4&transport=polling&t=P4aDC_F&sid=4_atEbWVUgcy0iDNAAAC HTTP/1.1" 200 -
+2024-08-05 15:22:31,545 - INFO - 127.0.0.1 - - [05/Aug/2024 15:22:31] "GET /socket.io/?EIO=4&transport=polling&t=P4aDC_F.0&sid=4_atEbWVUgcy0iDNAAAC HTTP/1.1" 200 -
+2024-08-05 15:22:31,547 - INFO - 127.0.0.1 - - [05/Aug/2024 15:22:31] "POST /socket.io/?EIO=4&transport=polling&t=P4aDJ5v&sid=4_atEbWVUgcy0iDNAAAC HTTP/1.1" 200 -
+2024-08-05 15:22:54,852 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:22:54,852 - INFO - Questions generated for subtopic 'Ethics Code': Here are five questions that are relevant to the content provided:
+
+1. What is the purpose of the MD Billing Associate Handbook, and what does it cover?
+
+(Answer: The purpose of the handbook is to provide associates with an understanding of the company's mission, history, and structure, as well as its current policies and guidelines. It covers various topics, including employment policies, benefits, safety procedures, and standards of conduct.)
+
+2. What is the company's policy on harassment and discrimination, and how does it handle complaints?
+
+(Answer: The company has a strict policy against all types of workplace harassment and discrimination. It encourages associates to report any incidents to their supervisor or HR, and it will investigate and take corrective action if necessary.)
+
+3. What are the company's expectations regarding associate attendance and punctuality, and what are the consequences of excessive absenteeism?
+
+(Answer: The company expects associates to report to work on time and be prepared to start working. Excessive absenteeism is defined as two or more occurrences of unexcused absence in a 30-day period or three or more occurrences in a 90-day period, and it may result in disciplinary action, including termination.)
+
+4. What is the company's policy on social media use, and what are the guidelines for associates who use social media?
+
+(Answer: The company allows associates to use social media, but it expects them to follow certain guidelines, including being respectful, maintaining accuracy and confidentiality, and not representing themselves as speaking on behalf of the company.)
+
+5. What is the company's policy on substance abuse, and what are the consequences of violating this policy?
+
+(Answer: The company has a zero-tolerance policy on substance abuse, and it prohibits associates from using, selling, possessing, or being under the influence of illegal drugs or controlled substances while on company property or on work time. Violating this policy may result in immediate termination.)
+2024-08-05 15:22:56,548 - INFO - 127.0.0.1 - - [05/Aug/2024 15:22:56] "GET /socket.io/?EIO=4&transport=polling&t=P4aDJ5w&sid=4_atEbWVUgcy0iDNAAAC HTTP/1.1" 200 -
+2024-08-05 15:22:56,549 - INFO - 127.0.0.1 - - [05/Aug/2024 15:22:56] "POST /socket.io/?EIO=4&transport=polling&t=P4aDPCa&sid=4_atEbWVUgcy0iDNAAAC HTTP/1.1" 200 -
+2024-08-05 15:23:08,505 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:23:08,505 - INFO - Responses generated for question 'Here are five questions that are relevant to the content provided:': I'm ready to help. What are the five questions?
+2024-08-05 15:23:21,550 - INFO - 127.0.0.1 - - [05/Aug/2024 15:23:21] "GET /socket.io/?EIO=4&transport=polling&t=P4aDPCa.0&sid=4_atEbWVUgcy0iDNAAAC HTTP/1.1" 200 -
+2024-08-05 15:23:21,556 - INFO - 127.0.0.1 - - [05/Aug/2024 15:23:21] "POST /socket.io/?EIO=4&transport=polling&t=P4aDVJF&sid=4_atEbWVUgcy0iDNAAAC HTTP/1.1" 200 -
+2024-08-05 15:23:34,903 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:23:34,903 - INFO - Responses generated for question '1. What is the purpose of the MD Billing Associate Handbook, and what does it cover?': According to the text, the purpose of the MD Billing Associate Handbook is to provide associates with an understanding of the Company's mission, history, and structure as well as its current policies and guidelines. The handbook covers various topics, including the Company's ethics code, employment policies, benefits, compensation, safety and compliance, and standards of conduct.
+
+Alternatively, the handbook can be described as a comprehensive guide that outlines the Company's expectations, policies, and procedures, aiming to create a safe, productive, and pleasant workplace for all associates. It covers essential information, such as job descriptions, performance evaluations, attendance and leave policies, and disciplinary procedures, to ensure that associates understand their roles and responsibilities within the Company.
+2024-08-05 15:23:46,556 - INFO - 127.0.0.1 - - [05/Aug/2024 15:23:46] "GET /socket.io/?EIO=4&transport=polling&t=P4aDVJF.0&sid=4_atEbWVUgcy0iDNAAAC HTTP/1.1" 200 -
+2024-08-05 15:23:46,557 - INFO - 127.0.0.1 - - [05/Aug/2024 15:23:46] "POST /socket.io/?EIO=4&transport=polling&t=P4aDbPy&sid=4_atEbWVUgcy0iDNAAAC HTTP/1.1" 200 -
+2024-08-05 15:23:55,862 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:23:55,863 - INFO - Responses generated for question '(Answer: The purpose of the handbook is to provide associates with an understanding of the company's mission, history, and structure, as well as its current policies and guidelines. It covers various topics, including employment policies, benefits, safety procedures, and standards of conduct.)': Here are two possible responses to the question:
+
+Response 1:
+The purpose of the handbook is to provide associates with an understanding of the company's mission, history, and structure, as well as its current policies and guidelines.
+
+Response 2:
+The handbook covers various topics, including employment policies, benefits, safety procedures, and standards of conduct, in order to provide associates with a comprehensive understanding of the company's expectations and policies.
+2024-08-05 15:24:11,558 - INFO - 127.0.0.1 - - [05/Aug/2024 15:24:11] "GET /socket.io/?EIO=4&transport=polling&t=P4aDbPy.0&sid=4_atEbWVUgcy0iDNAAAC HTTP/1.1" 200 -
+2024-08-05 15:24:11,561 - INFO - 127.0.0.1 - - [05/Aug/2024 15:24:11] "POST /socket.io/?EIO=4&transport=polling&t=P4aDhWd&sid=4_atEbWVUgcy0iDNAAAC HTTP/1.1" 200 -
+2024-08-05 15:24:31,440 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:24:31,440 - INFO - Responses generated for question '2. What is the company's policy on harassment and discrimination, and how does it handle complaints?': Here are two possible responses to the question:
+
+**Response 1**
+MD Billing has a strict policy against all types of workplace harassment, including sexual harassment and other forms of workplace harassment based on an individual's sex, gender, race, religion, color, national origin, physical or mental disability, marital status, age, sexual orientation, gender identity, or any other status protected by federal, state, or local laws. The company prohibits retaliation against any associate who provides information about, complains, or assists in the investigation of any complaint of harassment or discrimination.
+
+**Response 2**
+MD Billing is committed to the principles of equal employment and complies with all federal, state, and local laws providing equal employment opportunities. The company prohibits discrimination, harassment, or retaliation because of sex, gender, race, religion, color, national origin, physical or mental disability, genetic information, marital status, age, sexual orientation, gender identity, military service, veteran status, or any other status protected by federal, state, or local laws. The company will conduct a prompt and thorough investigation of all allegations of discrimination, harassment, or retaliation, and take appropriate corrective action if warranted.
+2024-08-05 15:24:36,561 - INFO - 127.0.0.1 - - [05/Aug/2024 15:24:36] "GET /socket.io/?EIO=4&transport=polling&t=P4aDhWd.0&sid=4_atEbWVUgcy0iDNAAAC HTTP/1.1" 200 -
+2024-08-05 15:24:36,563 - INFO - 127.0.0.1 - - [05/Aug/2024 15:24:36] "POST /socket.io/?EIO=4&transport=polling&t=P4aDndI&sid=4_atEbWVUgcy0iDNAAAC HTTP/1.1" 200 -
+2024-08-05 15:24:54,933 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:24:54,934 - INFO - Responses generated for question '(Answer: The company has a strict policy against all types of workplace harassment and discrimination. It encourages associates to report any incidents to their supervisor or HR, and it will investigate and take corrective action if necessary.)': Here are two possible responses to the question:
+
+Response 1:
+MD Billing has a zero-tolerance policy for workplace harassment and discrimination. Associates are encouraged to report any incidents to their supervisor or Human Resources, and the company will investigate and take corrective action if necessary.
+
+Response 2:
+The company prohibits all forms of workplace harassment and discrimination, including sexual harassment, and has a process in place for associates to report incidents. Reports can be made to supervisors or Human Resources, and the company will investigate and take action to correct the behavior if necessary.
+2024-08-05 15:25:01,564 - INFO - 127.0.0.1 - - [05/Aug/2024 15:25:01] "GET /socket.io/?EIO=4&transport=polling&t=P4aDndI.0&sid=4_atEbWVUgcy0iDNAAAC HTTP/1.1" 200 -
+2024-08-05 15:25:01,566 - INFO - 127.0.0.1 - - [05/Aug/2024 15:25:01] "POST /socket.io/?EIO=4&transport=polling&t=P4aDtjz&sid=4_atEbWVUgcy0iDNAAAC HTTP/1.1" 200 -
+2024-08-05 15:25:25,582 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:25:25,582 - INFO - Responses generated for question '3. What are the company's expectations regarding associate attendance and punctuality, and what are the consequences of excessive absenteeism?': According to the text, MD Billing expects associates to report to work as scheduled, on time, and prepared to start working. Associates are also expected to remain at work for their entire work schedule. Late arrival, early departure, or other absences from scheduled hours are disruptive and must be avoided.
+
+Excessive absenteeism is defined as two or more occurrences of unexcused absence in a 30-day period or three or more occurrences in a 90-day period, and will result in disciplinary action. Eight occurrences of unexcused absence in a 12-month period are considered grounds for termination.
+
+Associates who are absent for two or more consecutive days due to illness or injury must provide a doctor's release to the Human Resources department before returning to work. Associates who fail to report to work for a period of one day or more without notifying their supervisor will be considered to have abandoned their job and voluntarily terminated their employment relationship.
+2024-08-05 15:25:26,567 - INFO - 127.0.0.1 - - [05/Aug/2024 15:25:26] "GET /socket.io/?EIO=4&transport=polling&t=P4aDtjz.0&sid=4_atEbWVUgcy0iDNAAAC HTTP/1.1" 200 -
+2024-08-05 15:25:26,569 - INFO - 127.0.0.1 - - [05/Aug/2024 15:25:26] "POST /socket.io/?EIO=4&transport=polling&t=P4aDzqe&sid=4_atEbWVUgcy0iDNAAAC HTTP/1.1" 200 -
+2024-08-05 15:25:50,730 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:25:50,730 - INFO - Responses generated for question '(Answer: The company expects associates to report to work on time and be prepared to start working. Excessive absenteeism is defined as two or more occurrences of unexcused absence in a 30-day period or three or more occurrences in a 90-day period, and it may result in disciplinary action, including termination.)': Here are two possible responses to the question:
+
+Response 1:
+According to the company's attendance policy, associates are expected to report to work on time and be prepared to start working. Excessive absenteeism is defined as two or more occurrences of unexcused absence in a 30-day period or three or more occurrences in a 90-day period.
+
+Response 2:
+The company requires associates to report to work as scheduled, on time, and prepared to start working. Excessive absenteeism, which includes two or more unexcused absences in a 30-day period or three or more in a 90-day period, may result in disciplinary action, including termination.
+2024-08-05 15:25:51,570 - INFO - 127.0.0.1 - - [05/Aug/2024 15:25:51] "GET /socket.io/?EIO=4&transport=polling&t=P4aDzqe.0&sid=4_atEbWVUgcy0iDNAAAC HTTP/1.1" 200 -
+2024-08-05 15:25:51,573 - INFO - 127.0.0.1 - - [05/Aug/2024 15:25:51] "POST /socket.io/?EIO=4&transport=polling&t=P4aE3xJ&sid=4_atEbWVUgcy0iDNAAAC HTTP/1.1" 200 -
+2024-08-05 15:26:16,573 - INFO - 127.0.0.1 - - [05/Aug/2024 15:26:16] "GET /socket.io/?EIO=4&transport=polling&t=P4aE3xJ.0&sid=4_atEbWVUgcy0iDNAAAC HTTP/1.1" 200 -
+2024-08-05 15:26:16,575 - INFO - 127.0.0.1 - - [05/Aug/2024 15:26:16] "POST /socket.io/?EIO=4&transport=polling&t=P4aEA1-&sid=4_atEbWVUgcy0iDNAAAC HTTP/1.1" 200 -
+2024-08-05 15:26:20,653 - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-05 15:26:20,654 - INFO - Responses generated for question '4. What is the company's policy on social media use, and what are the guidelines for associates who use social media?': Response 1:
+The company's policy on social media use is outlined in the Social Media Policy section of the handbook. Associates are expected to follow the company's guidelines for social media use, which include being respectful, maintaining accuracy and confidentiality, and not engaging in behavior that could offend, intimidate, embarrass, or upset others. Associates are also prohibited from representing themselves as a spokesperson for the company or discussing company business on social media without authorization.
+
+Response 2:
+According to the Social Media Policy, associates are expected to use social media responsibly and in a way that reflects positively on the company. The guidelines for social media use include: being respectful and courteous, maintaining accuracy and confidentiality, not engaging in behavior that could offend or intimidate others, and not representing themselves as a spokesperson for the company without authorization. Additionally, associates are prohibited from using social media to discuss company business or share confidential information without permission.
+2024-08-05 15:26:41,576 - INFO - 127.0.0.1 - - [05/Aug/2024 15:26:41] "GET /socket.io/?EIO=4&transport=polling&t=P4aEA1-.0&sid=4_atEbWVUgcy0iDNAAAC HTTP/1.1" 200 -
+2024-08-05 15:26:41,578 - INFO - 127.0.0.1 - - [05/Aug/2024 15:26:41] "POST /socket.io/?EIO=4&transport=polling&t=P4aEG8f&sid=4_atEbWVUgcy0iDNAAAC HTTP/1.1" 200 -
