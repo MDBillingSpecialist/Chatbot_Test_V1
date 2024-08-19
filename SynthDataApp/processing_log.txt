@@ -6875,3 +6875,32 @@ Response 2:
 The company's social media policy applies to all associates who use social media for personal or professional purposes. Associates are expected to follow the policy's guidelines, which include maintaining confidentiality, being respectful, and avoiding posts that could offend or embarrass the company or its clients.
 2024-08-05 20:07:58,570 - INFO - 127.0.0.1 - - [05/Aug/2024 20:07:58] "GET /socket.io/?EIO=4&transport=polling&t=P4bEYO_.0&sid=4_atEbWVUgcy0iDNAAAC HTTP/1.1" 200 -
 2024-08-05 20:07:58,571 - INFO - 127.0.0.1 - - [05/Aug/2024 20:07:58] "POST /socket.io/?EIO=4&transport=polling&t=P4bEeVg&sid=4_atEbWVUgcy0iDNAAAC HTTP/1.1" 200 -
+2024-08-14 10:13:42,422 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-14 10:13:42,423 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-14 10:13:42,423 - INFO -  * Restarting with stat
+2024-08-14 10:13:43,440 - WARNING -  * Debugger is active!
+2024-08-14 10:13:43,441 - INFO -  * Debugger PIN: 223-159-800
+2024-08-14 10:13:46,455 - INFO - 127.0.0.1 - - [14/Aug/2024 10:13:46] "GET / HTTP/1.1" 200 -
+2024-08-14 10:13:46,504 - INFO - 127.0.0.1 - - [14/Aug/2024 10:13:46] "GET /socket.io/?EIO=4&transport=polling&t=P5HSy86 HTTP/1.1" 200 -
+2024-08-14 10:13:46,512 - INFO - 127.0.0.1 - - [14/Aug/2024 10:13:46] "POST /socket.io/?EIO=4&transport=polling&t=P5HSy8D&sid=j8LfF2rdAlCNx-EDAAAA HTTP/1.1" 200 -
+2024-08-14 10:13:46,512 - INFO - 127.0.0.1 - - [14/Aug/2024 10:13:46] "GET /socket.io/?EIO=4&transport=polling&t=P5HSy8D.0&sid=j8LfF2rdAlCNx-EDAAAA HTTP/1.1" 200 -
+2024-08-14 10:13:46,514 - INFO - 127.0.0.1 - - [14/Aug/2024 10:13:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-08-14 10:13:52,744 - INFO - 127.0.0.1 - - [14/Aug/2024 10:13:52] "POST /socket.io/?EIO=4&transport=polling&t=P5HSzfc&sid=j8LfF2rdAlCNx-EDAAAA HTTP/1.1" 200 -
+2024-08-14 10:13:52,744 - INFO - 127.0.0.1 - - [14/Aug/2024 10:13:52] "GET /socket.io/?EIO=4&transport=polling&t=P5HSy8I&sid=j8LfF2rdAlCNx-EDAAAA HTTP/1.1" 200 -
+2024-08-14 10:13:53,936 - INFO - Skipping segment 1 due to insufficient content.
+2024-08-14 10:13:53,936 - INFO - Processing segment 2/2...
+2024-08-14 10:30:39,393 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-14 10:30:39,393 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-14 10:30:39,393 - INFO -  * Restarting with stat
+2024-08-14 10:30:40,559 - WARNING -  * Debugger is active!
+2024-08-14 10:30:40,560 - INFO -  * Debugger PIN: 223-159-800
+2024-08-14 10:30:45,677 - INFO - 127.0.0.1 - - [14/Aug/2024 10:30:45] "GET / HTTP/1.1" 200 -
+2024-08-14 10:30:45,695 - INFO - 127.0.0.1 - - [14/Aug/2024 10:30:45] "GET /socket.io/?EIO=4&transport=polling&t=P5HWqyz HTTP/1.1" 200 -
+2024-08-14 10:30:45,702 - INFO - 127.0.0.1 - - [14/Aug/2024 10:30:45] "POST /socket.io/?EIO=4&transport=polling&t=P5HWqz5&sid=0zqIwo50BDGYtJo-AAAA HTTP/1.1" 200 -
+2024-08-14 10:30:45,704 - INFO - 127.0.0.1 - - [14/Aug/2024 10:30:45] "GET /socket.io/?EIO=4&transport=polling&t=P5HWqz5.0&sid=0zqIwo50BDGYtJo-AAAA HTTP/1.1" 200 -
+2024-08-14 10:30:51,036 - INFO - 127.0.0.1 - - [14/Aug/2024 10:30:51] "POST /socket.io/?EIO=4&transport=polling&t=P5HWsGQ&sid=0zqIwo50BDGYtJo-AAAA HTTP/1.1" 200 -
+2024-08-14 10:30:51,036 - INFO - 127.0.0.1 - - [14/Aug/2024 10:30:51] "GET /socket.io/?EIO=4&transport=polling&t=P5HWqz9&sid=0zqIwo50BDGYtJo-AAAA HTTP/1.1" 200 -
+2024-08-14 10:30:52,227 - INFO - Skipping segment 1 due to insufficient content.
+2024-08-14 10:30:52,227 - INFO - Processing segment 2/2...

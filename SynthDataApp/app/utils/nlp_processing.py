@@ -8,7 +8,6 @@ def clean_text(text):
     text = re.sub(r'[^\w\s]', '', text)  # Remove punctuation
     return text.strip().lower()
 
-
 def advanced_segment_text(text):
     """Advanced segmentation of text into smaller, logical chunks."""
     # Clean text first
@@ -17,17 +16,23 @@ def advanced_segment_text(text):
     # Segment into sentences
     sentences = re.split(r'(?<=\.)\s', cleaned_text)
     
-    # Further segment based on custom logic if needed
-    # For example, based on length or specific keywords
-    refined_segments = []
+    # Combine sentences into segments of appropriate length
+    segments = []
+    current_segment = ""
+    min_segment_length = 300  # Minimum character length for a segment
+    
     for sentence in sentences:
-        if len(sentence.split()) > 10:  # Example condition to split long sentences further
-            refined_segments.append(sentence)
+        if len(current_segment) + len(sentence) < min_segment_length:
+            current_segment += sentence + " "
         else:
-            refined_segments[-1] += ' ' + sentence if refined_segments else sentence
-
-    return refined_segments
-
+            segments.append(current_segment.strip())
+            current_segment = sentence + " "
+    
+    # Add the last segment
+    if current_segment:
+        segments.append(current_segment.strip())
+    
+    return segments
 
 def validate_responses(responses, text):
     """Validate responses to ensure they are relevant to the original text."""
@@ -36,7 +41,6 @@ def validate_responses(responses, text):
         if any(keyword.lower() in response.lower() for keyword in text.split()):
             valid_responses.append(response)
     return valid_responses
-
 
 def process_text_for_openai(text):
     """Prepare text segments for processing with OpenAI."""

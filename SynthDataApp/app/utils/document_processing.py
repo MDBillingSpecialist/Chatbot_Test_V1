@@ -60,7 +60,7 @@ def segment_text(text):
     # Combine short paragraphs or those related to the same topic
     segments = []
     current_segment = ""
-    min_segment_length = 300  # Minimum character length for a segment
+    min_segment_length = 500  # Minimum character length for a segment
     
     for paragraph in paragraphs:
         if len(current_segment) + len(paragraph) < min_segment_length:
