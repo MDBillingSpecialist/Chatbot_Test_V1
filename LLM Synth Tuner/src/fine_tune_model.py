@@ -21,12 +21,10 @@ val_file_path = r'C:\Users\theth\OneDrive\Documents\GitHub\Chatbot_Test_V1\LLM S
 def upload_file(file_path, purpose):
     try:
         logging.info(f"Uploading file {file_path} for purpose: {purpose}")
-        file = client.files.create(
-            file=open(file_path, "rb"),
-            purpose=purpose
-        )
-        logging.info(f"File uploaded successfully: {file.id}")
-        return file.id
+        with open(file_path, "rb") as file:
+            response = client.files.create(file=file, purpose=purpose)
+        logging.info(f"File uploaded successfully: {response.id}")
+        return response.id
     except Exception as e:
         logging.error(f"Failed to upload file {file_path}: {e}")
         raise
@@ -36,14 +34,14 @@ def create_fine_tuning_job(train_file_id, val_file_id):
         logging.info("Creating fine-tuning job.")
         response = client.fine_tuning.jobs.create(
             training_file=train_file_id,
-            validation_file=val_file_id,  # Optional, only include if you uploaded a validation file
-            model="gpt-4o-mini-2024-07-18",  # Specify the gpt-4o-mini model
-            hyperparameters={"n_epochs": 4}  # Number of training epochs
+            validation_file=val_file_id,
+            model="gpt-3.5-turbo-1106",
+            hyperparameters={"n_epochs": 4}
         )
-        logging.info(f"Fine-tuning job created successfully: {response.id}")
+        logging.info(f"Fine-tuning job created successfully: {response}")
         return response.id
     except Exception as e:
-        logging.error(f"Failed to create fine-tuning job: {e}")
+        logging.error(f"Failed to create fine-tuning job. Full error: {str(e)}")
         raise
 
 def monitor_fine_tuning(fine_tune_id, poll_interval=60):
@@ -57,7 +55,7 @@ def monitor_fine_tuning(fine_tune_id, poll_interval=60):
                 print(f"Fine-tuned model: {getattr(status, 'fine_tuned_model', 'Not yet completed')}")
                 logging.info(f"Fine-tuned model: {getattr(status, 'fine_tuned_model', 'Not yet completed')}")
 
-                if getattr(status, 'result_files', None):
+                if status.result_files:
                     print(f"Result Files: {status.result_files}")
                     logging.info(f"Result Files: {status.result_files}")
                 else:
@@ -66,22 +64,18 @@ def monitor_fine_tuning(fine_tune_id, poll_interval=60):
 
                 # Check for error details if the job failed
                 if status.status == 'failed':
-                    if hasattr(status, 'events'):
-                        for event in status.events:
-                            if event.level == 'error':
-                                print(f"Error: {event.message}")
-                                logging.error(f"Error: {event.message}")
+                    print(f"Error: {status.error}")
+                    logging.error(f"Error: {status.error}")
 
                 break
             else:
-                if hasattr(status, 'total_steps') and hasattr(status, 'completed_steps'):
-                    percentage_complete = (status.completed_steps / status.total_steps) * 100
-                    print(f"Progress: {status.completed_steps}/{status.total_steps} steps ({percentage_complete:.2f}% complete)")
-                    logging.info(f"Progress: {status.completed_steps}/{status.total_steps} steps ({percentage_complete:.2f}% complete)")
+                if status.trained_tokens is not None:
+                    print(f"Trained tokens: {status.trained_tokens}")
+                    logging.info(f"Trained tokens: {status.trained_tokens}")
                 else:
-                    print("Step information is not available yet.")
-                    logging.info("Step information is not available yet.")
-                    
+                    print("Token information is not available yet.")
+                    logging.info("Token information is not available yet.")
+                
                 print("Fine-tuning is still in progress...")
                 logging.info("Fine-tuning is still in progress...")
                 time.sleep(poll_interval)
@@ -100,6 +94,8 @@ def main():
     except Exception as e:
         logging.error(f"Fine-tuning process failed: {e}")
         print(f"Fine-tuning process failed: {e}")
+        print(f"Error type: {type(e).__name__}")
+        print(f"Error details: {str(e)}")
 
 if __name__ == "__main__":
     main()
