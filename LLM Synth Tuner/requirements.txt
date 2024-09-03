@@ -1,0 +1,6 @@
+pdfplumber
+fuzzywuzzy
+openai
+python-dotenv
+pytest
+rich
