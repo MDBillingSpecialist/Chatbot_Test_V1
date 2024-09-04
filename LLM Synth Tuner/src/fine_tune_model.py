@@ -35,7 +35,7 @@ def create_fine_tuning_job(train_file_id, val_file_id):
         response = client.fine_tuning.jobs.create(
             training_file=train_file_id,
             validation_file=val_file_id,
-            model="gpt-3.5-turbo-1106",
+            model="gpt-4o-mini-2024-07-18",
             hyperparameters={"n_epochs": 4}
         )
         logging.info(f"Fine-tuning job created successfully: {response}")
