@@ -1,30 +1,42 @@
+# File paths
+pdf_path: "C:/Users/theth/OneDrive/Documents/GitHub/Chatbot_Test_V1/LLM Synth Tuner/data/raw/Handbook.pdf"
+toc_json_path: "C:/Users/theth/OneDrive/Documents/GitHub/Chatbot_Test_V1/LLM Synth Tuner/src/data/toc_output.json"
+output_folder: "C:/Users/theth/OneDrive/Documents/GitHub/Chatbot_Test_V1/LLM Synth Tuner/segmented_output"
+output_file: "segmented_output_with_metadata.json"
+
+# API configurations
 openai_api:
-  base_url: "https://api.openai.com/v1"  # Base URL for OpenAI's GPT models
-  api_key_env: "OPENAI_API_KEY"          # Environment variable for OpenAI API key
+  base_url: "https://api.openai.com/v1"
+  api_key_env: "OPENAI_API_KEY"
 
 nvidia_api:
-  base_url: "https://build.nvidia.com"   # Base URL for NVIDIA's NeMo models
-  api_key_env: "NVIDIA_API_KEY"          # Environment variable for NVIDIA API key
+  base_url: "https://build.nvidia.com"
+  api_key_env: "NVIDIA_API_KEY"
 
+# Model configurations
 models:
-  generation_model: "gpt-4o-mini-2024-07-18"  # Default model for generation
-  scoring_model: "nvidia/nemotron-4-340b-reward"  # Default model for scoring
+  generation_model: "gpt-4o-mini-2024-07-18"
+  scoring_model: "nvidia/nemotron-4-340b-reward"
+  segmentation_model: "gpt-4o-mini-2024-07-18"
   available_models:
-    openai:  # OpenAI models
+    openai:
       - "gpt-4o-2024-05-13"
       - "gpt-4o-2024-08-06"
       - "chatgpt-4o-latest"
       - "gpt-4o-mini-2024-07-18"
-    nvidia:  # NVIDIA models
+    nvidia:
       - "nvidia/nemotron-4-340b-reward"
 
+# Generation parameters
 generation_parameters:
   temperature: 0.2
   top_p: 0.7
-  max_tokens: 4096  # Adjust according to model's max output tokens
+  max_tokens: 4096
 
+# Scoring parameters
 scoring_parameters:
-  max_tokens: 4096  # Adjust according to model's max output tokens
+  max_tokens: 4096
 
+# Validation parameters
 validation:
-  min_similarity_score: 0.7  # Example value
+  min_similarity_score: 0.7
