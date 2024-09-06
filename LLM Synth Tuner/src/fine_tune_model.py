@@ -7,16 +7,34 @@ from dotenv import load_dotenv
 # Load environment variables from .env file
 load_dotenv()
 
+# Constants for configuration
+API_KEY = os.getenv("OPENAI_API_KEY")
+TRAIN_FILE_PATH = r'C:\Users\theth\OneDrive\Documents\GitHub\Chatbot_Test_V1\LLM Synth Tuner\data\output\train_data.jsonl'
+VAL_FILE_PATH = r'C:\Users\theth\OneDrive\Documents\GitHub\Chatbot_Test_V1\LLM Synth Tuner\data\output\val_data.jsonl'
+MODEL_NAME = "gpt-4o-mini-2024-07-18"
+N_EPOCHS = 3
+PRICE_PER_TOKEN = 0.0001
+POLL_INTERVAL = 60  # in seconds
+
 # Initialize logging
 logging.basicConfig(filename='fine_tuning.log', level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Initialize the OpenAI client
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+client = OpenAI(api_key=API_KEY)
 
-# Paths to the training and validation files
-train_file_path = r'C:\Users\theth\OneDrive\Documents\GitHub\Chatbot_Test_V1\LLM Synth Tuner\data\output\train_data.jsonl'
-val_file_path = r'C:\Users\theth\OneDrive\Documents\GitHub\Chatbot_Test_V1\LLM Synth Tuner\data\output\val_data.jsonl'
+def estimate_cost(train_file_path, val_file_path, price_per_token=PRICE_PER_TOKEN):
+    try:
+        with open(train_file_path, 'r') as train_file, open(val_file_path, 'r') as val_file:
+            train_tokens = sum(len(line.split()) for line in train_file)
+            val_tokens = sum(len(line.split()) for line in val_file)
+        
+        total_tokens = train_tokens + val_tokens
+        estimated_cost = total_tokens * price_per_token
+        return estimated_cost
+    except Exception as e:
+        logging.error(f"Failed to estimate cost: {e}")
+        raise
 
 def upload_file(file_path, purpose):
     try:
@@ -35,8 +53,8 @@ def create_fine_tuning_job(train_file_id, val_file_id):
         response = client.fine_tuning.jobs.create(
             training_file=train_file_id,
             validation_file=val_file_id,
-            model="gpt-4o-mini-2024-07-18",
-            hyperparameters={"n_epochs": 4}
+            model=MODEL_NAME,
+            hyperparameters={"n_epochs": N_EPOCHS}
         )
         logging.info(f"Fine-tuning job created successfully: {response}")
         return response.id
@@ -44,7 +62,7 @@ def create_fine_tuning_job(train_file_id, val_file_id):
         logging.error(f"Failed to create fine-tuning job. Full error: {str(e)}")
         raise
 
-def monitor_fine_tuning(fine_tune_id, poll_interval=60):
+def monitor_fine_tuning(fine_tune_id, poll_interval=POLL_INTERVAL):
     while True:
         try:
             status = client.fine_tuning.jobs.retrieve(fine_tune_id)
@@ -62,7 +80,6 @@ def monitor_fine_tuning(fine_tune_id, poll_interval=60):
                     print("No result files yet.")
                     logging.info("No result files yet.")
 
-                # Check for error details if the job failed
                 if status.status == 'failed':
                     print(f"Error: {status.error}")
                     logging.error(f"Error: {status.error}")
@@ -86,8 +103,16 @@ def monitor_fine_tuning(fine_tune_id, poll_interval=60):
 
 def main():
     try:
-        train_file_id = upload_file(train_file_path, "fine-tune")
-        val_file_id = upload_file(val_file_path, "fine-tune")
+        estimated_cost = estimate_cost(TRAIN_FILE_PATH, VAL_FILE_PATH)
+        print(f"Estimated cost for fine-tuning: ${estimated_cost:.2f}")
+        confirm = input("Do you want to proceed with the fine-tuning? (y/n): ").strip().lower()
+        
+        if confirm != 'y':
+            print("Fine-tuning process aborted.")
+            return
+
+        train_file_id = upload_file(TRAIN_FILE_PATH, "fine-tune")
+        val_file_id = upload_file(VAL_FILE_PATH, "fine-tune")
         fine_tune_id = create_fine_tuning_job(train_file_id, val_file_id)
         print(f"Fine-tune ID: {fine_tune_id}")
         monitor_fine_tuning(fine_tune_id)

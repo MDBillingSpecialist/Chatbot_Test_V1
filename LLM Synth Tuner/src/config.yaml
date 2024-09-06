@@ -40,3 +40,9 @@ scoring_parameters:
 # Validation parameters
 validation:
   min_similarity_score: 0.7
+
+augmentation:
+  enabled: true
+  techniques:
+    - synonym_replacement
+    - back_translation

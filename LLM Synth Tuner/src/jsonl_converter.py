@@ -2,7 +2,7 @@ import json
 import random
 
 # Paths to the input and output files
-input_file = 'C:/Users/theth/OneDrive/Documents/GitHub/Chatbot_Test_V1/LLM Synth Tuner/data/processed/synthetic_data.jsonl'
+input_file = 'C:/Users/theth/OneDrive/Documents/GitHub/Chatbot_Test_V1/LLM Synth Tuner/data/processed/synthetic_data_v4.jsonl'
 train_file = 'C:/Users/theth/OneDrive/Documents/GitHub/Chatbot_Test_V1/LLM Synth Tuner/data/processed/train_data.jsonl'
 val_file = 'C:/Users/theth/OneDrive/Documents/GitHub/Chatbot_Test_V1/LLM Synth Tuner/data/processed/val_data.jsonl'
 test_file = 'C:/Users/theth/OneDrive/Documents/GitHub/Chatbot_Test_V1/LLM Synth Tuner/data/processed/test_data.jsonl'
@@ -14,7 +14,6 @@ test_ratio = 0.1
 
 def convert_jsonl_and_split(input_file, train_file, val_file, test_file):
     try:
-        # Read and process data
         data = []
         with open(input_file, 'r') as infile:
             for line in infile:
@@ -26,33 +25,36 @@ def convert_jsonl_and_split(input_file, train_file, val_file, test_file):
                     print(f"Skipping entry with missing 'segment' or 'question': {data_entry}")
                     continue
 
-                # Find the best response
+                # Find the best response for both single-turn and multi-turn
                 responses = data_entry.get('responses', {})
                 if not responses:
                     print(f"Skipping entry with missing 'responses': {data_entry}")
                     continue
 
-                best_response = max(responses.values(), key=lambda x: x['similarity_score'])['response']
-
-                # Format into the chat completion structure
-                chat_completion = {
-                    "messages": [
-                        {"role": "system", "content": "You are a helpful assistant specializing in MD Billing policies."},
+                # If multi-turn conversation
+                if data_entry.get('multi_turn', False):
+                    messages = [
+                        {"role": "system", "content": "You are a highly knowledgeable assistant with expertise in MD Billing policies. Your task is to provide accurate answers strictly based on the information provided in the company's handbook and related documents. If you are unsure or the information is not available, clearly state that the handbook does not cover that particular topic. Avoid making guesses or assumptions."}
+                    ]
+                    for turn in data_entry['conversation']:
+                        messages.append({"role": turn['role'], "content": turn['content']})
+                else:
+                    best_response = max(responses.values(), key=lambda x: x['similarity_score'])['response']
+                    messages = [
+                        {"role": "system", "content": "You are a highly knowledgeable assistant with expertise in MD Billing policies. Your task is to provide accurate answers strictly based on the information provided in the company's handbook and related documents. If you are unsure or the information is not available, clearly state that the handbook does not cover that particular topic. Avoid making guesses or assumptions."},
                         {"role": "user", "content": f"Segment: {segment}\nQuestion: {question}"},
                         {"role": "assistant", "content": best_response}
                     ]
-                }
 
+                chat_completion = {"messages": messages}
                 data.append(chat_completion)
-        
+
         if not data:
             print("No valid data found to process.")
             return
 
-        # Shuffle the data to ensure random distribution
+        # Shuffle and split the data
         random.shuffle(data)
-        
-        # Split the data
         train_size = int(len(data) * train_ratio)
         val_size = int(len(data) * val_ratio)
 
@@ -60,7 +62,6 @@ def convert_jsonl_and_split(input_file, train_file, val_file, test_file):
         val_data = data[train_size:train_size + val_size]
         test_data = data[train_size + val_size:]
 
-        # Write the split datasets to their respective files
         def write_jsonl(file_path, dataset):
             with open(file_path, 'w') as outfile:
                 for entry in dataset:
@@ -75,6 +76,10 @@ def convert_jsonl_and_split(input_file, train_file, val_file, test_file):
     
     except Exception as e:
         print(f"An error occurred during conversion: {e}")
+
+# Run the updated conversion function
+convert_jsonl_and_split(input_file, train_file, val_file, test_file)
+
 
 def validate_jsonl(file_path):
     try:
