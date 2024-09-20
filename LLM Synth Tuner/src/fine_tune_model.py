@@ -12,7 +12,7 @@ API_KEY = os.getenv("OPENAI_API_KEY")
 TRAIN_FILE_PATH = r'C:\Users\theth\OneDrive\Documents\GitHub\Chatbot_Test_V1\LLM Synth Tuner\data\output\train_data.jsonl'
 VAL_FILE_PATH = r'C:\Users\theth\OneDrive\Documents\GitHub\Chatbot_Test_V1\LLM Synth Tuner\data\output\val_data.jsonl'
 MODEL_NAME = "gpt-4o-mini-2024-07-18"
-N_EPOCHS = 3
+N_EPOCHS = 4
 PRICE_PER_TOKEN = 0.0001
 POLL_INTERVAL = 60  # in seconds
 

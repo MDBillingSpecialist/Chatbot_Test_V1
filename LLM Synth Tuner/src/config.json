@@ -1,6 +1,0 @@
-{
-    "pdf_path": "C:/Users/theth/OneDrive/Documents/GitHub/Chatbot_Test_V1/LLM Synth Tuner/data/raw/Handbook.pdf",
-    "toc_json_path": "C:/Users/theth/OneDrive/Documents/GitHub/Chatbot_Test_V1/LLM Synth Tuner/src/data/toc_output.json",
-    "output_folder": "C:/Users/theth/OneDrive/Documents/GitHub/Chatbot_Test_V1/LLM Synth Tuner/segmented_output",
-    "output_file": "segmented_output_with_metadata.json"
-}
